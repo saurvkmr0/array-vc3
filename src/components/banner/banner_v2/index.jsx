@@ -39,11 +39,15 @@ function Banner (props) {
                                         <div className="col-md-12">
                                             <div className="box-slider">
                                                 <div className="content-box">
-                                                    <h1 className="title" >Become an early investor in the top Blockchain Games, NFTs and Metaverses</h1>
-                                                    <p className="sub-title">Risebot is the leading blockchain gaming launchpad with over 50 projects launched and the <br className="show-destop" /> highest average ROI in the industry</p>
+                                                    <h1 className="title" >We bring the 2nd wave of customers</h1>
+                                                    <p className="sub-title">Array Ventures is focused on solving impactful problems using revolutionary technology. Often that means category-leading startups that take advantage of data, analytics, workflows, and new platforms to change the way an industry works. We invest in smart people with a bold mission who take big risks in large or new markets. We want entrepreneurs to tell us what the world is going to look like in 2, 5, 10 years, and why they are going to be to be a winner in that world.
+                                                    {/* <br className="show-destop" /> highest average ROI in the industry */}
+                                                    </p>
                                                     <div className="wrap-btn">
                                                         <Link to="/faqs" className="tf-button style2">
-                                                            HOW TO START
+                                                            Every Vision
+                                                            
+                                                            needs Liquidity
                                                         </Link>
                                                     </div>
                                                 </div>

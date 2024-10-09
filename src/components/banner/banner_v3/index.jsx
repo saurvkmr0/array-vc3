@@ -33,8 +33,7 @@ function Banner3 (props) {
                                         <div className="col-md-12">
                                             <div className="box-slider">
                                                 <div className="content-box">
-                                                    <h1 className="title" >Gamifying of the
-                                                        metaverse</h1>
+                                                    <h1 className="title" >Empowering Future Founders</h1>
                                                     <p className="sub-title">NFTs and the metaverse are the future, but investing in the space isn’t easy. We make it simple.</p>
                                                     <div className="wrap-btn">
                                                         <Link to="/project_list" className="tf-button style2">
