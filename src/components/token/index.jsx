@@ -13,6 +13,9 @@ import icon5 from '../../assets/images/chart/color_5.png'
 import icon6 from '../../assets/images/chart/color_6.png'
 import icon7 from '../../assets/images/chart/color_7.png'
 import bg from '../../assets/images/chart/subtract.png'
+
+import ShrutiXbanner from '../../assets/images/array-vc/ShrutiXbanner.png'
+
 import { useState } from 'react';
 
 import { Chart } from './Chart';
@@ -25,28 +28,16 @@ function Token(props) {
         [
             {
                 id: 1,
-                img: img1,
-                title: 'Funded Projects',
-                number: '359'
+                // img: img1,
+                title: 'Email',
+                number: 'shruti@arrayvc.com'
             },
             {
                 id: 2,
-                img: img2,
-                title: 'Unique Participants',
-                number: '742'
+                // img: img2,
+                title: 'Location',
+                number: 'Victoria Street SF, CA 94789'
             },
-            {
-                id: 3,
-                img: img3,
-                title: 'Raised Capital',
-                number: '17M'
-            },
-            {
-                id: 4,
-                img: img4,
-                title: 'Initial Market Cap',
-                number: '32M'
-            }
         ]
     )
 
@@ -105,7 +96,7 @@ function Token(props) {
         }
     )
     return (
-        <section className="tf-section tf-token">
+        <section className="tf-section tf-token" style={{ padding: '60px 0', margin:'40px 0' }}>
                 <div className="overlay">
                     <img src={img} alt="" />
                 </div>
@@ -114,7 +105,7 @@ function Token(props) {
                         <div className="col-md-12">
                             <div className="tf-title" data-aos="fade-up" data-aos-duration="800">
                                 <h2 className="title">
-                                    {dataTitle.title}
+                                Shruti Gandhi
                                 </h2>
                             </div>
                         </div>
@@ -125,9 +116,9 @@ function Token(props) {
                                     {
                                         data.map(idx => (
                                             <div key={idx.id} className="box">
-                                                <div className="image">
+                                                {/* <div className="image">
                                                     <img src={idx.img} alt="" />
-                                                </div>
+                                                </div> */}
                                                 <div className="content">
                                                     <p className="desc">{idx.title}</p>
                                                     <div className="box-couter counter">
@@ -143,7 +134,7 @@ function Token(props) {
                                     
                                 </div>
                                 <div className="char_wrapper">
-                                    <ul className="describe_chart">
+                                    {/* <ul className="describe_chart">
                                         {
                                             list.map(idx => (
                                                 <li key={idx.id}>
@@ -156,13 +147,14 @@ function Token(props) {
                                             ))
                                         }
                                         
-                                    </ul>
+                                    </ul> */}
                                     <div className="chart_inner" data-aos="fade-up" data-aos-duration="800">
                                         <div className="content_inner">
-                                            <img src={bg} alt="" />
-                                            <p>Statistics token</p>
+                                            {/* <img src={bg} alt="" />
+                                            <p>Statistics token</p> */}
+                                            <img src={ShrutiXbanner} alt="" style={{height:'300px'}}/>
                                         </div>
-                                        <Chart />
+                                        {/* <Chart /> */}
                                     </div>
                                 </div>
                             </div>
