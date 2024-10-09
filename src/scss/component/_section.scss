@@ -903,7 +903,7 @@
             font-size: 16px;
             line-height: 1.4;
             margin-bottom: 6px;
-            font-family: 'resobot-bold';
+            font-family: 'Courier New', Courier, monospace;
             font-weight: 700; 
         }
         ul {
@@ -2545,7 +2545,7 @@
         @include flex(center,space-between);
     }
     .content-progress-box.style2 .progress-title-holder span {
-        font-family: 'resobot-bold';
+        font-family: 'Courier New', Courier, monospace;
         font-weight: 700;
         color: $color-hover;
         font-size: 16px;
@@ -2665,7 +2665,7 @@
                 font-size: 14px;
                 line-height: 24px;
                 font-weight: bold;
-                font-family: 'resobot-bold';
+                font-family: 'Courier New', Courier, monospace;
                 text-transform: uppercase;
             }
             &.react-tabs__tab--selected,
@@ -2705,7 +2705,7 @@
                     font-size: 20px;
                     line-height: 28px;
                     font-weight: bold;
-                    font-family: 'resobot-bold';
+                    font-family: 'Courier New', Courier, monospace;
                     text-transform: capitalize;
                 } 
                 &.active,
