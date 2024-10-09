@@ -31,11 +31,11 @@ function HomeOne(props) {
 
             {/* <Project4 data={dataProject} /> */}
 
-            <Team data={dataTeam} />
+            {/* <Team data={dataTeam} /> */}
 
             <Partner data={dataPartner} />
 
-            <CTA />
+            {/* <CTA /> */}
 
 
         </div>

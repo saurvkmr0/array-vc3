@@ -39,7 +39,7 @@ function Footer(props) {
                         <div className="logo_footer">
                             <img src={require ("../../assets/images/logo/logo2.png")} alt="" />
                         </div>
-                        <p>A one-stop destination for web3 gaming.</p>
+                        <p>A one-stop destination for Pre-Seed Investments.</p>
                     </div>
                     <div className="widget">
                         <h5 className="widget-title">
@@ -56,7 +56,7 @@ function Footer(props) {
                             </li>
                             <li className="email">
                                 <p>Email</p>
-                                <Link to="#">risebot@support.com</Link>
+                                <Link to="#">array_vc@support.com</Link>
                             </li>
                         </ul>
                     </div>
@@ -105,7 +105,7 @@ function Footer(props) {
             <div className="container">
                 <div className="wrap-fx">
                     <div className="Copyright">
-                        Copyright © 2023. Designed by <Link to="https://themeforest.net/user/themesflat/portfolio">Themesflat</Link>
+                        Copyright © 2024 Array VC. All rights reserved.
                     </div>
                     <ul className="social">
                         <li>
