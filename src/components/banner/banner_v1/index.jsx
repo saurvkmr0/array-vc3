@@ -37,7 +37,8 @@ function Banner (props) {
                                             <div className="box-slider">
                                                 <div className="content-box">
                                                 
-                                                    <h1 className="title" >{item.heading}</h1>
+                                                    <h1 className="title" >{item.heading1}</h1>
+                                                    <h1 className="title" >{item.heading2}</h1>
                                                     <p className="sub-title secondary-text">{item.sub_heading} <hr className='hrz-line'/></p>
                                                     
                                                     <div className="wrap-btn"> 
@@ -46,7 +47,7 @@ function Banner (props) {
                                                 </div>
                                                 <div className="image">
                                                     <img className="img_main" src={item.img1} alt="Risebot" /> 
-                                                    <div className="icon icon1"> 
+                                                    {/* <div className="icon icon1"> 
                                                         <img  src={item.img2} alt="Risebot" /> 
                                                     </div>
                                                     <div className="icon icon2">
@@ -54,7 +55,7 @@ function Banner (props) {
                                                     </div>
                                                     <div className="icon icon3">
                                                         <img  src={item.img4} alt="Risebot" /> 
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

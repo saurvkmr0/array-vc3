@@ -6,7 +6,8 @@ import img4 from '../images/slider/icon_3.png';
 const dataBanner = [
     {
         id: 1,
-        heading: 'Empowering Ed Tech Founders',
+        heading1: 'Empowering Ed',
+        heading2: 'Tech Founders',
         sub_heading: 'Vision Needs Liquidity',
         img1: img1,
         img2: img2,

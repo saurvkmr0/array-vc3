@@ -1,0 +1,44 @@
+// SCSS styles for the testimonial slider component
+.testimonial-slider {
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 28rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  
+    .testimonial-message {
+      font-size: 1.125rem;
+      color: #4a5568;
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+  
+    .testimonial-author {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .author-image {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        border: 2px solid #e2e8f0;
+      }
+  
+      .author-name {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #2d3748;
+      }
+  
+      .author-designation {
+        font-size: 0.875rem;
+        color: #718096;
+      }
+    }
+  }
+  

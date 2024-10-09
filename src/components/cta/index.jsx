@@ -3,6 +3,7 @@ import React from 'react';
 import img from '../../assets/images/common/img_cta.png'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import Testimonial from './Testimonial/Testimonial';
 
 
 
@@ -10,8 +11,8 @@ function CTA(props) {
 
     const [dataTitle] = useState(
         {
-            title: 'Launch on Risebot',
-            subtitle: 'Full support in project incubation'
+            title: 'Testimonial',
+            subtitle: 'Listen to our satisfied clients'
         }
     )
     return (
@@ -27,17 +28,18 @@ function CTA(props) {
                                     {dataTitle.title}
                                 </h2>
                                 <p className="sub">{dataTitle.subtitle}</p>
-                                <div className="wrap-btn">
+                                {/* <div className="wrap-btn">
                                     <Link to="/submit_igo" className="tf-button style3">
                                         Apply Now
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-md-6">
-                        <div className="image_cta" data-aos="fade-left" data-aos-duration="1200">
+                        <Testimonial className="image_cta" data-aos="fade-left" data-aos-duration="1200"/>
+                        {/* <div className="image_cta" data-aos="fade-left" data-aos-duration="1200">
                             <img className="move4" src={img} alt="" />
-                        </div>
+                        </div> */}
                         </div>
                     </div>
                 </div>

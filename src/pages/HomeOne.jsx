@@ -35,7 +35,7 @@ function HomeOne(props) {
 
             <Partner data={dataPartner} />
 
-            {/* <CTA /> */}
+            <CTA />
 
 
         </div>
