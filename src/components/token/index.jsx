@@ -73,18 +73,18 @@ function Token(props) {
                 title: 'Ecosystem',
                 unit: '16.33%'
             },
-            {
-                id: 6,
-                icon: icon6,
-                title: 'Marketing',
-                unit: '16.33%'
-            },
-            {
-                id: 7,
-                icon: icon7,
-                title: 'Private Sale',
-                unit: '30.0%'
-            },
+            // {
+            //     id: 6,
+            //     icon: icon6,
+            //     title: 'Marketing',
+            //     unit: '16.33%'
+            // },
+            // {
+            //     id: 7,
+            //     icon: icon7,
+            //     title: 'Private Sale',
+            //     unit: '30.0%'
+            // },
 
         ]
     )
@@ -134,7 +134,7 @@ function Token(props) {
                                     
                                 </div>
                                 <div className="char_wrapper">
-                                    {/* <ul className="describe_chart">
+                                    <ul className="describe_chart">
                                         {
                                             list.map(idx => (
                                                 <li key={idx.id}>
@@ -147,7 +147,7 @@ function Token(props) {
                                             ))
                                         }
                                         
-                                    </ul> */}
+                                    </ul>
                                     <div className="chart_inner" data-aos="fade-up" data-aos-duration="800">
                                         <div className="content_inner">
                                             {/* <img src={bg} alt="" />
