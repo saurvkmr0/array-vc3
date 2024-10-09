@@ -11,16 +11,16 @@ function Banner(props) {
         <div className="project-box">
             <div className="image">
                 <img className="mask" src={item.img} alt="Risebot" /> 
-                <div className="shape">
+                {/* <div className="shape">
                     <img src={require ('../../../assets/images/common/shape.png')} alt="Risebot" />
-                </div>
+                </div> */}
             </div>
             <div className="content">
                 <span className="boder"></span>
                 <div className="content-inner">
                     <h5 className="heading"><Link to="/project_list">{item.title}</Link></h5>
                     <p className="desc">{item.desc}</p>
-                    <ul>
+                    {/* <ul>
                         <li>
                             <p className="text">Total raise:</p>
                             <p className="price">{item.price_1}</p>
@@ -33,7 +33,7 @@ function Banner(props) {
                             <p className="text">Base allo:</p>
                             <p className="price">{item.price_3}</p>
                         </li>
-                    </ul>
+                    </ul> */}
                     <p className="social_title">Social</p>
                     <ul className="social">
                         <li>

@@ -29,7 +29,7 @@ function HomeOne(props) {
 
             {<Token />}
 
-            <Project4 data={dataProject} />
+            {/* <Project4 data={dataProject} /> */}
 
             <Team data={dataTeam} />
 

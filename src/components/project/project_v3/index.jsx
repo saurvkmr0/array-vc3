@@ -12,8 +12,8 @@ function Project(props) {
 
     const [dataTitle] = useState(
         {
-            title: 'Easy To Join IGO',
-            title_2: 'With 3 Steps'
+            title: 'Acquired By',
+            // title_2: 'With 3 Steps'
         }
     )
 

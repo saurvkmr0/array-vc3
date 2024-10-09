@@ -15,8 +15,8 @@ function Project(props) {
 
     const [dataTitle] = useState(
         {
-            title: 'Projects that promise a lot  ',
-            title_2: ' of potential'
+            title: 'Our Advisors',
+            // title_2: ' give me your feedback'
         }
     )
 

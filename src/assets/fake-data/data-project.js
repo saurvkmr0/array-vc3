@@ -31,6 +31,13 @@ import img30 from '../images/common/project_82.jpg';
 import avt1 from '../images/common/project_24.png'; 
 import avt2 from '../images/common/project_25.png'; 
 
+import simility from '../images/array-vc/simility.png';
+import xwing from '../images/array-vc/xwing.png';
+import passageAi from '../images/array-vc/passage-ai.png';
+import bluemira from '../images/array-vc/bluemira.svg';
+import castApp from '../images/array-vc/cast-app.svg';
+
+
 const dataProject = [
     {
         id: 1, 
@@ -55,7 +62,7 @@ const dataProject = [
     {
         id: 6, 
         img: img2,
-        title: "Zombie plant 2",
+        title: "Anthony Wu",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -64,7 +71,7 @@ const dataProject = [
     {
         id: 7, 
         img: img3,
-        title: "Zombie plant 2",
+        title: "Dan Janney",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -73,7 +80,7 @@ const dataProject = [
     {
         id: 8, 
         img: img4,
-        title: "Zombie plant 2",
+        title: "Ellen Rudnick",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -81,8 +88,8 @@ const dataProject = [
     },  
     {
         id: 9, 
-        img: img5,
-        title: "Iron Blade",
+        img: img7,
+        title: "Kirrberly Ha",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -90,8 +97,8 @@ const dataProject = [
     },  
     {
         id: 10, 
-        img: img2,
-        title: "Zombie plant 2",
+        img: img8,
+        title: "Lucas Baker",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -99,23 +106,23 @@ const dataProject = [
     },  
     {
         id: 11, 
-        img: img7,
-        title: "Submit KYC",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.",
+        img: xwing,
+        title: "A1 And Automation For Aircraft",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non .",
         number: "01"
     },  
     {
         id: 12, 
-        img: img8,
-        title: "Verify Wallet",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.",
+        img: passageAi,
+        title: "Conversational A1 Platform — Acquired By ServiceNow",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non  at sit amet nunc Nullam at nunc non ligula suscipit tincidunt",
         number: "02"
     },  
     {
         id: 13, 
-        img: img9,
-        title: "Start Staking",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.",
+        img: castApp,
+        title: "A1-Driven Success Platforms",
+        desc: "Lorem ipsum dolor sit amet tincidunt at sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. amen col",
         number: "03"
     }, 
 
