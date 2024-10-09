@@ -1,0 +1,21 @@
+:root {
+    --highlight-color: #86FF00; /* Default highlight color */
+  }
+
+  .hrz-line {
+    width: 100px;               /* Initial width of the line */
+    height: 4px !important;                /* Thickness of the line */
+    background-color: white;      /* Color of the line */
+    border: none;               /* Remove the default border */
+    margin: 0;                  /* Optional: Adjust margin if necessary */
+    transition: width 0.3s ease; /* Smooth transition effect for width change */
+}
+
+.hrz-line:hover {
+    width: 180px; /* New width when hovering over the line */
+    background-color: var(--highlight-color);
+}
+
+.secondary-text:hover{
+    color: var(--highlight-color);
+}
