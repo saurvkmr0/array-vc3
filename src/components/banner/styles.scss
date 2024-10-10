@@ -278,10 +278,13 @@
     }
 }
 .slider-main { 
+    
     .swiper-button-prev,
     .swiper-button-next {
+        
         @include transition3;
         @include flex(center,center); 
+        display: none;
         min-width: 60px;
         min-height: 60px;
         background: transparent;
