@@ -13,9 +13,19 @@ function CTA3(props) {
                     <div className="col-md-9">
                         <div className="tf-title left mb0" data-aos="fade-up" data-aos-duration="800">
                             <h2 className="title">
-                                become our potential partner
+                            Shruti Gandhi
                             </h2>
-                            <p className="sub">Lorem ipsum dolor sit amet consectetur</p>
+
+                            <p className="sub">Email</p>
+                            <h5 className="" >
+                            shruti@arrayvc.com
+                            </h5>
+                            <p className="sub">Location</p>
+                            <h5 className="">
+                            Victoria Street SF,
+                            CA 94789
+                            </h5>
+                            
                             <div className="wrap-btn">
                                 <Link to="/project_submit" className="tf-button style3">
                                     Apply Project
@@ -25,9 +35,9 @@ function CTA3(props) {
                     </div>
                     <div className="col-md-3">
                     <div className="image_cta" data-aos="fade-left" data-aos-duration="1200">
-                        <img className="move4" src={require ("../../assets/images/common/img_cta2.png")} alt="" />
-                        <img className="icon icon_1" src={require ("../../assets/images/common/icon_cta.png")} alt="" />
-                        <img className="icon icon_2" src={require ("../../assets/images/common/icon_cta_2.png")} alt="" />
+                        <img className="" src={require ("../../assets/images/array-vc/ShrutiXbanner.png")} alt="" />
+                        <img className="icon icon_1" src={require ("../../assets/images/common/coin3.png")} alt="" />
+                        <img className="icon icon_2" src={require ("../../assets/images/common/coin4.png")} alt="" />
                     </div>
                     </div>
                 </div>

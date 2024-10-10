@@ -1,4 +1,4 @@
-import React  from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles.scss'
 import PropTypes from 'prop-types';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,6 +10,30 @@ Banner3.propTypes = {
 };
 
 function Banner3 (props) {
+
+    // hero text
+    const changingText = ['Cybersecurity', 'Future', 'B2B SaaS', 'Ed Tech', 'AI'];
+  const [currentText, setCurrentText] = useState(changingText[0]);
+  const [fadeOut, setFadeOut] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const cycleText = () => {
+      setFadeOut(true); // Start fade-out
+
+      setTimeout(() => {
+        // Change text after fading out
+        setIndex((prevIndex) => (prevIndex + 1) % changingText.length);
+        setCurrentText(changingText[(index + 1) % changingText.length]);
+        setFadeOut(false); // Start fade-in
+      }, 500); // Match this time with the CSS transition duration
+    };
+
+    const interval = setInterval(cycleText, 2000); // Change text every 3 seconds
+    return () => clearInterval(interval);
+  }, [index]);
+
+
     const {data} = props;
     return (
 
@@ -24,7 +48,7 @@ function Banner3 (props) {
                     navigation 
                 >
                 {
-                    data.slice(0,2).map(item => (
+                    data.slice(0,1).map(item => (
                         <SwiperSlide key={item.id}>
                             <div className="slider-st3">
                     
@@ -33,8 +57,11 @@ function Banner3 (props) {
                                         <div className="col-md-12">
                                             <div className="box-slider">
                                                 <div className="content-box">
-                                                    <h1 className="title" >Empowering Future Founders</h1>
-                                                    <p className="sub-title">NFTs and the metaverse are the future, but investing in the space isn’t easy. We make it simple.</p>
+                                                    <h1 className="title" >Empowering</h1>
+                                                    <h1 className="title" >{currentText}</h1>
+                                                    
+                                                    <h1 className="title" >Founders</h1> 
+                                                    <p className="sub-title">Vision Needs Liquidity</p>
                                                     <div className="wrap-btn">
                                                         <Link to="/project_list" className="tf-button style2">
                                                             LEARN MORE
@@ -62,7 +89,7 @@ function Banner3 (props) {
                                                     </div>
                                                 </div>
                                                 <div className="image">
-                                                    <img className="img_main" src={require ("../../../assets/images/common/img_slider3.png")} alt="" />
+                                                    <img className="img_main" src={require ("../../../assets/images/array-vc/banner-man.png")} alt="" />
                                                 </div>
                                             </div>
                                         </div>

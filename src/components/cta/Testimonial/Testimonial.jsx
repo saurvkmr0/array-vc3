@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Testimonial.scss'; // Import the SCSS file
 
-import img1 from '../../../assets/images/common/team_1.png'
-import img2 from '../../../assets/images/common/team_2.png'
-import img3 from '../../../assets/images/common/team_3.png'
+import img1 from '../../../assets/images/common/team_1.png';
+import img2 from '../../../assets/images/common/team_2.png';
+import img3 from '../../../assets/images/common/team_3.png';
 
 const testimonials = [
   {
@@ -28,11 +28,17 @@ const testimonials = [
 
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [fade, setFade] = useState('fade-in');
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 5000); // Change testimonial every 5 seconds
+      setFade('fade-out'); // Start fade-out animation
+
+      setTimeout(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+        setFade('fade-in'); // Start fade-in animation after the change
+      }, 1000); // Duration of the fade-out effect (1 second)
+    }, 6000); // Change testimonial every 6 seconds (5s display + 1s transition)
 
     return () => clearInterval(interval); // Clear interval when component unmounts
   }, []);
@@ -40,7 +46,7 @@ const Testimonial = () => {
   const { message, name, designation, image } = testimonials[currentIndex];
 
   return (
-    <div className="testimonial-slider">
+    <div className={`testimonial-slider ${fade}`}>
       <p className="testimonial-message">"{message}"</p>
       <div className="testimonial-author">
         <img src={image} alt={name} className="author-image" />

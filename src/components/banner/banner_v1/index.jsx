@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import Button from '../../button';
 import './styles.scss';
+import heroImage from '../../../assets/images/common/img_technology1.png'
 
 
 Banner.propTypes = {
@@ -42,7 +43,7 @@ function Banner (props) {
     return (
         <div className="page-title">
             <div className="icon_bg">
-                <img src={require ('../../../assets/images/backgroup/bg_inner_slider.png')} alt="Risebot" />
+                {/* <img src={require ('../../../assets/images/backgroup/bg_inner_slider.png')} alt="Risebot" /> */}
             </div>
             <div className="slider-main">
             <Swiper
@@ -78,8 +79,9 @@ function Banner (props) {
                                                     </div>
                                                 </div>
                                                 <div className="image">
-                                                    <img className="img_main" src={item.img1} alt="Risebot" /> 
-                                                    {/* <div className="icon icon1"> 
+                                                    <img className="img_main" src={heroImage} alt="Risebot" /> 
+                                                    {/*<img className="img_main" src={item.img1} alt="Risebot" /> 
+                                                     <div className="icon icon1"> 
                                                         <img  src={item.img2} alt="Risebot" /> 
                                                     </div>
                                                     <div className="icon icon2">

@@ -15,7 +15,7 @@ import CTA3 from '../components/cta/CTA3';
 import Step from '../components/Step/Step';
 import dataStep from '../assets/fake-data/data-step';
 import Partner4 from '../components/partner/Partner4';
-import CTA from '../components/cta/cta_v2';
+import CTA from '../components/cta';
 
 
 
@@ -39,12 +39,13 @@ function HomeThree(props) {
             {<Step data={dataStep} />}
 
             {<Partner4 data={dataPartner} />}
+            
+            <CTA />
 
             {<Faqs data={dataFaq} />}  
             
             {<Partner3 data={dataPartner} />}
 
-            <CTA />
  
 
          
