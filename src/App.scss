@@ -20,8 +20,8 @@
 
 .color-picker-position {
     position: fixed;       // Equivalent to 'fixed'
-    bottom: 2rem;         // 'bottom-8' corresponds to 2rem (assuming a base font size of 16px)
-    right: 2rem;          // 'right-8' corresponds to 2rem
+    bottom: 20px;         // 'bottom-8' corresponds to 2rem (assuming a base font size of 16px)
+    right: 14px;          // 'right-8' corresponds to 2rem
     z-index: 9999;
   }
 
@@ -560,7 +560,7 @@ form {
 
 #scroll-top:before {
     z-index         : -1;
-    background: #86FF00;
+    background: var(--highlight-color);
 }
 
 

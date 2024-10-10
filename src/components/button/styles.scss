@@ -3,7 +3,7 @@
 /* button
 -------------------------------------------------------------- */
 :root {
-    --highlight-color: #86FF00; /* Default highlight color */
+    --highlight-color: var(--highlight-color); /* Default highlight color */
   }
 
 .wrap-btn {
@@ -30,12 +30,12 @@
         background: #798DA3;
         color: $white;
         &:hover {
-            background: #86FF00;
+            background: var(--highlight-color);
             color: #000000;
         }
     }
     &.style2 {
-        background: #86FF00;
+        background: var(--highlight-color);
         color: #000000;
         &:hover {
             background: #798DA3;
@@ -43,7 +43,7 @@
         }
     }
     &.style3 {
-        background: #86FF00;
+        background: var(--highlight-color);
         color: #000000;
         height: 60px;
         font-size: 16px;

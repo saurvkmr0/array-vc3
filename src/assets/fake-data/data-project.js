@@ -108,7 +108,7 @@ const dataProject = [
         id: 11, 
         img: xwing,
         title: "A1 And Automation For Aircraft",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non .",
+        desc: "Lorem text all into the your make of is call. Rest do fino lap commit respond in to the work ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non .",
         number: "01"
     },  
     {
@@ -122,7 +122,7 @@ const dataProject = [
         id: 13, 
         img: castApp,
         title: "A1-Driven Success Platforms",
-        desc: "Lorem ipsum dolor sit amet tincidunt at sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. amen col",
+        desc: "Lorem ipsum dolor sit amet tincidunt consectetur adipiscing elit. Nullam at sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. amen col",
         number: "03"
     }, 
 

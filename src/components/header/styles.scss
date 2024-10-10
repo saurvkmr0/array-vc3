@@ -112,7 +112,7 @@
         margin-right: 28px;
 
         &.active > a {
-            color: #86FF00;
+            color: var(--highlight-color);
         }
         
         a {
@@ -128,7 +128,7 @@
             line-height: 1.5; 
 
             &.active {
-                color: #86FF00;
+                color: var(--highlight-color);
             }
             
             &:hover {

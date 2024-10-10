@@ -15,5 +15,5 @@ code {
 }
 
 :root {
-  --highlight-color: #80ca4c; /* Default highlight color */
+  --highlight-color:  var(--highlight-color); /* Default highlight color */
 }

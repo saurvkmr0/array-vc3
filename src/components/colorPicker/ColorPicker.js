@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ColorPicker.scss'; // Import SCSS file
 
 const ColorPicker = () => {
-  const [highlightColor, setHighlightColor] = useState('#008f11'); // Default highlight color
+  const [highlightColor, setHighlightColor] = useState('#86FF00'); // Default highlight color
 
   // Function to handle color changes
   const handleColorChange = (event) => {
@@ -18,18 +18,16 @@ const ColorPicker = () => {
 
   return (
     <div className="color-picker">
+      {/* <label htmlFor="colorPicker" className="color-label">
+        🎨
+      </label>
       <input
+        id="colorPicker"
         type="color"
         value={highlightColor}
         onChange={handleColorChange}
-      />
-      {/* Uncomment for visual feedback */}
-      {/* <div
-        className="feedback"
-        style={{ backgroundColor: highlightColor }} // For visual feedback
-      >
-        
-      </div> */}
+      /> */}
+
     </div>
   );
 };

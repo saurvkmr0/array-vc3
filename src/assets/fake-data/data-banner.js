@@ -16,8 +16,9 @@ const dataBanner = [
     }, 
     {
         id: 2,
-        heading: 'Enter the gateway of Blockchain Gaming',
-        sub_heading: 'Visually and spatially connecting games in a seamless metaverse experience',
+        heading1: 'Empowering',
+        heading2: 'CyberSecurity Founders',
+        sub_heading: 'Vision Needs Liquidity',        
         img1: img1,
         img2: img2,
         img3: img3,

@@ -12,7 +12,6 @@ root.render(
   <BrowserRouter>
   <ScrollToTop />
       <App />
-      <div className=""><ColorPicker /></div>
   </BrowserRouter>
 </React.Fragment>
 );

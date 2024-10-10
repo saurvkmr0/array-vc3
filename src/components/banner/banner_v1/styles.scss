@@ -1,5 +1,5 @@
 :root {
-    --highlight-color: #86FF00; /* Default highlight color */
+    --highlight-color: var(--highlight-color); /* Default highlight color */
   }
 
   .hrz-line {

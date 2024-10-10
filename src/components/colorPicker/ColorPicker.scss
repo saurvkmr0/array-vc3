@@ -1,4 +1,4 @@
-$highlight-color: #008f11; // Default highlight color
+$highlight-color:  var(--highlight-color); // Default highlight color
 
 :root {
   --highlight-color: #{$highlight-color}; // Define the CSS variable
@@ -10,25 +10,38 @@ $highlight-color: #008f11; // Default highlight color
   align-items: center;
   background-color: var(--highlight-color); // Use the CSS variable
   border-radius: 50%; // Equivalent to rounded-full
+  width: 50px; // Set input width to 40px
+  height: 50px; // Set input height to 40px
 
   input {
-    width: 40px; // Set input width to 40px
-    height: 40px; // Set input height to 40px
-    border-radius: 50%; // Make the input a circle
+    padding:0 !important;
+    width: 50px; // Set input width to 40px
+    height: 50px; // Set input height to 40px
+    border-radius: 50% !important; // Make the input a circle
     background-color: var(--highlight-color);
-    border: none; // Remove border
-    outline: none; // Remove focus outline
+    border: none !important; // Remove border
+    outline: none !important; // Remove focus outline
 
     &:hover {
       cursor: pointer; // Change cursor on hover
     }
   }
 
-  .feedback {
-    margin-top: 16px; // Equivalent to mt-4
-    padding: 16px; // Equivalent to p-4
-    color: white;
-    border-radius: 8px; // Adjust if necessary
-    background-color: var(--highlight-color); // Use the CSS variable
+  .color-label {
+    position: absolute;
+    left: 10px; // Adjust based on your desired position
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; // Allow clicks to pass through to the color input
+    font-size: 1.2rem; // Adjust size as needed
+    color: #666; // Style the label as desired
   }
+
+  // .feedback {
+  //   margin-top: 16px; // Equivalent to mt-4
+  //   padding: 16px; // Equivalent to p-4
+  //   color: white;
+  //   border-radius: 8px; // Adjust if necessary
+  //   background-color: var(--highlight-color); // Use the CSS variable
+  // }
 }
