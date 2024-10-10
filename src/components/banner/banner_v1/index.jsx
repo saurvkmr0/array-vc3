@@ -1,21 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import '../styles.scss'
+import '../styles.scss';
 import PropTypes from 'prop-types';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import Button from '../../button';
 import './styles.scss';
-import heroImage from '../../../assets/images/common/img_technology1.png'
-
+import heroImage from '../../../assets/images/common/img_technology1.png';
 
 Banner.propTypes = {
-    data : PropTypes.array,
+  data: PropTypes.array,
 };
 
-function Banner (props) {
-
-    // hero text
-    const changingText = ['Cybersecurity', 'Future', 'B2B SaaS', 'Ed Tech', 'AI'];
+function Banner(props) {
+  // hero text
+  const changingText = ['Cybersecurity', 'Future', 'B2B SaaS', 'Ed Tech', 'AI'];
   const [currentText, setCurrentText] = useState(changingText[0]);
   const [fadeOut, setFadeOut] = useState(false);
   const [index, setIndex] = useState(0);
@@ -32,78 +30,62 @@ function Banner (props) {
       }, 500); // Match this time with the CSS transition duration
     };
 
-    const interval = setInterval(cycleText, 2000); // Change text every 3 seconds
+    const interval = setInterval(cycleText, 2000); // Change text every 2 seconds
     return () => clearInterval(interval);
   }, [index]);
 
+  const { data } = props;
 
-
-  const {data} = props;
-
-    return (
-        <div className="page-title">
-            <div className="icon_bg">
-                {/* <img src={require ('../../../assets/images/backgroup/bg_inner_slider.png')} alt="Risebot" /> */}
-            </div>
-            <div className="slider-main">
-            <Swiper
-                modules={[Navigation]}
-                    spaceBetween={0}
-                    slidesPerView={1}
-                    navigation 
-                >
-                {
-                    data.slice(0,1).map(item => (
-                        <SwiperSlide key={item.id}>
-                            <div className="slider-st1">
-                                <div className="overlay">
-                                    <img src={require ('../../../assets/images//backgroup/bg-slider.png')} alt="Risebot" />
-                                </div>
-                                <div className="container">
-                                    <div className="row">
-                                        <div className="col-md-12">
-                                            <div className="box-slider">
-                                                <div className="content-box">
-                                                
-                                                    <h1 className="title" >Empowering</h1>
-                                                    <h1 className="title" >{currentText}</h1>
-                                                    
-                                                    <h1 className="title" >Founders</h1> 
-                                                    <p className="sub-title secondary-text">{item.sub_heading} <hr className='hrz-line'/></p>
-
-                                                    {/* <HeroText/> */}
-                                                    
-                                                    
-                                                    <div className="wrap-btn"> 
-                                                        <Button title='EXPLOR ARRAY VC' path='/' addclass='style2'/>  
-                                                    </div>
-                                                </div>
-                                                <div className="image">
-                                                    <img className="img_main" src={heroImage} alt="Risebot" /> 
-                                                    {/*<img className="img_main" src={item.img1} alt="Risebot" /> 
-                                                     <div className="icon icon1"> 
-                                                        <img  src={item.img2} alt="Risebot" /> 
-                                                    </div>
-                                                    <div className="icon icon2">
-                                                        <img  src={item.img3} alt="Risebot" /> 
-                                                    </div>
-                                                    <div className="icon icon3">
-                                                        <img  src={item.img4} alt="Risebot" /> 
-                                                    </div> */}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    )
-                    )
-                }
-            </Swiper>
-            </div>
-        </div>
-    );
+  return (
+    <div className="page-title">
+      <div className="icon_bg">
+        {/* <img src={require ('../../../assets/images/backgroup/bg_inner_slider.png')} alt="Risebot" /> */}
+      </div>
+      <div className="slider-main">
+        <Swiper modules={[Navigation]} spaceBetween={0} slidesPerView={1} navigation>
+          {data.slice(0, 1).map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className="slider-st1">
+                <div className="overlay">
+                  <img src={require('../../../assets/images//backgroup/bg-slider.png')} alt="Risebot" />
+                </div>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <div className="box-slider">
+                        <div className="content-box">
+                          <h1 className="title">Empowering</h1>
+                          <h1
+                            className="title"
+                            style={{
+                              opacity: fadeOut ? 0 : 1,
+                              transition: 'opacity 0.5s ease-in-out',
+                            }}
+                          >
+                            {currentText}
+                          </h1>
+                          <h1 className="title">Founders</h1>
+                          <p className="sub-title secondary-text">
+                            {item.sub_heading} <hr className="hrz-line" />
+                          </p>
+                          <div className="wrap-btn">
+                            <Button title="EXPLOR ARRAY VC" path="/" addclass="style2" />
+                          </div>
+                        </div>
+                        <div className="image">
+                          <img className="img_main" src={heroImage} alt="Risebot" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
 }
 
 export default Banner;

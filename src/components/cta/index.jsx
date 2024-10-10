@@ -36,7 +36,7 @@ function CTA(props) {
                             </div>
                         </div>
                         <div className="col-md-6">
-                        <Testimonial className="image_cta" data-aos="fade-left" data-aos-duration="1200"/>
+                        <Testimonial className="image_cta" data-aos="fade-left" data-aos-duration="1200" />
                         {/* <div className="image_cta" data-aos="fade-left" data-aos-duration="1200">
                             <img className="move4" src={img} alt="" />
                         </div> */}

@@ -51,7 +51,7 @@ const Testimonial = () => {
       <div className="testimonial-author">
         <img src={image} alt={name} className="author-image" />
         <h3 className="author-name">{name}</h3>
-        <span className="author-designation">{designation}</span>
+        <span className="author-designation" style={{color:'white'}}>{designation}</span>
         <span>⭐⭐⭐⭐⭐</span>
       </div>
     </div>

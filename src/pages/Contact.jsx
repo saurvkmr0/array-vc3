@@ -31,7 +31,7 @@ function Contact(props) {
                                     </div>
                                     <div className="content">
                                         <p>Address</p>
-                                        <p className="white">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+                                        <p className="white">Victoria Street SF, CA 94789</p>
                                     </div>
                                 </li>
                                 <li>
@@ -55,7 +55,7 @@ function Contact(props) {
                                     </div>
                                     <div className="content">
                                         <p>Email</p>
-                                        <p className="color-hover">risebot@support.com</p>
+                                        <p className="color-hover">array_vc@support.com</p>
                                     </div>
                                 </li>
                             </ul>
@@ -109,7 +109,7 @@ function Contact(props) {
                     </div>
                 </div>
             </section>
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );

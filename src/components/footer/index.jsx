@@ -48,7 +48,7 @@ function Footer(props) {
                         <ul className="widget-link contact">
                             <li>
                                 <p>Address</p>
-                                <Link to="#">1901 Thornridge Cir. Shiloh, Hawaii 81063</Link>
+                                <Link to="#">Victoria Street SF, CA 94789</Link>
                             </li>
                             <li>
                                 <p>Phone</p>

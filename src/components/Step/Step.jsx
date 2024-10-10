@@ -8,14 +8,14 @@ Step.propTypes = {
 function Step(props) {
     const {data} = props;
     return (
-        <section className="tf-section three_step">
+        <section className="tf-section three_step" style={{marginTop:'60px'}}>
         <div className="overlay"></div>
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
                     <div className="tf-title mb46 left" data-aos="fade-up" data-aos-duration="800">
                         <h2 className="title">
-                            Easy to join IGO <br className="show-destop" />
+                            Venture Capital <br className="show-destop" />
                             with 3 steps
                         </h2>
                     </div>
@@ -39,7 +39,7 @@ function Step(props) {
                 </div>
                 <div className="col-md-6">
                     <div className="image pt30">
-                        <img src={require ("../../assets/images/common/img_step.png")} className="move5" alt="" />
+                        <img src={require ("../../assets/images/array-vc/business.png")} className="move5" alt="" />
                     </div>
                 </div>
             </div>

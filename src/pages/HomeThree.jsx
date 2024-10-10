@@ -33,7 +33,7 @@ function HomeThree(props) {
 
             {<CTA3 />}
 
-            {<Project5 data={dataProject} />}
+            {/* {<Project5 data={dataProject} />} */}
 
 
             {<Step data={dataStep} />}
@@ -44,7 +44,7 @@ function HomeThree(props) {
 
             {<Faqs data={dataFaq} />}  
             
-            {<Partner3 data={dataPartner} />}
+            {/* {<Partner3 data={dataPartner} />} */}
 
  
 
