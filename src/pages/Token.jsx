@@ -3,6 +3,8 @@ import React from 'react';
 import PageTitle from '../components/pagetitle';
 import CTA from '../components/cta';
 import { Chart } from '../components/token/Chart';
+import { ImLinkedin } from "react-icons/im";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 
 function Token(props) {
@@ -13,18 +15,23 @@ function Token(props) {
             <section className="tf-section tf-token pt60">
                 <div className="container">
                     <div className="row">  
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-6 col-md-6" >
                             <div className="tf-title left mb40" data-aos-delay="500" data-aos="fade-up" data-aos-duration="800">
                                 <h2 className="title">
-                                    Statistics token
+                                    Shruti Gandhi
                                 </h2>
                             </div>
                             <div className="desc-token" data-aos-delay="500" data-aos="fade-up" data-aos-duration="800">
                                 <div className="total-token">
-                                    <p>Total Supply: <span>15,000,000</span></p>
-                                    <p>Public sale: <span> $0.24</span></p>
+                                    <p><span>Founder & Managing Partner</span></p>
+                                    <h3><span> <ImLinkedin /></span><span> <FaSquareXTwitter /></span></h3>
                                 </div>
-                                <ul className="describe_chart">
+                                    <h6>
+                                    Shruti brings a strong mix of operating and investing experience. Previously, Shruti was an early stage venture capital investor at True Ventures, Samsung Electronics, Lightbank, HighBAR Partners, and the i2A Fund.
+                                    Shruti started working with Machine Learning algorithms while working on her master's thesis in computer science from Columbia University on understanding user behavior on instant messaging platforms. While at IBM she worked on self learning algorithms that detected user location based on IP addresses, which she later incorporated into the Lotus Sametime product. Later, her company Penseev helped users make better connections with their friends based on social data.
+                                    {/* When not investing, she is hacking on some app or thinking about ways she can be in many places at one time. Shruti also has an MBA from the University of Chicago, where she polished her finance skills before making the switch from engineer/founder to investor. */}
+                                    </h6>
+                                {/* <ul className="describe_chart">
                                     <li>
                                         <img src={require ("../assets/images/chart/color_1.png")} alt="" />
                                         <div className="desc">
@@ -81,21 +88,22 @@ function Token(props) {
                                             <p className="number">5.3%</p>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6">
-                            <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="800">
-                                <div id="chart">
-                                <Chart />
-                                </div>
-                            </div>
+                        <div className="col-lg-6 col-md-6" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                            {/* <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="800"> */}
+                                {/* <div id="chart"> */}
+                                <img src={require ("../assets/images/array-vc/ShrutiXbanner.png")} style={{width:'80%', height:'auto'}} alt="" />
+                                {/* <Chart /> */}
+                                {/* </div> */}
+                            {/* </div> */}
+                        </div>
                         
-                        </div>
                         <div className="col-md-12">
                             <div className="tf-title left mt17 mb40" data-aos="fade-up" data-aos-duration="800">
-                                <h2 className="title">
-                                    Tokenomics
+                                <h2 className="title" style={{textAlign:'center', marginTop:'40px'}}>
+                                    Our Advisor Team
                                 </h2> 
                             </div>
                         </div>
