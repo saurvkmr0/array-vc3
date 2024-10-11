@@ -23,8 +23,8 @@ const menus = [
     },
     {
         id: 2,
-        name: 'Portfolio',
-        links: '#',
+        name: 'Investments',
+        links: '/faqs',
         // namesub: [
         //     {
         //         id: 1,
@@ -72,48 +72,48 @@ const menus = [
     {
         id: 3,
         name: 'Team',
-        links: '#',
-        namesub: [
-            {
-                id: 1,
-                sub: 'Token',
-                links: '/token'
-            },
-            {
-                id: 2,
-                sub: 'Connect Wallet',
-                links: '/connect'
-            },
-            {
-                id: 3,
-                sub: 'Core Team',
-                links: '/team_details'
-            },{
-                id: 4,
-                sub: 'Submit IGO on chain',
-                links: '/submit_igo'
-            },
-            {
-                id: 5,
-                sub: 'FAQs',
-                links: '/faqs'
-            },
-            {
-                id: 6,
-                sub: 'Login',
-                links: '/login'
-            },
-            {
-                id: 7,
-                sub: 'Register',
-                links: '/register'
-            },
-            {
-                id: 8,
-                sub: 'Forget Password',
-                links: '/forgetPass'
-            },
-        ]
+        links: 'token',
+        // namesub: [
+        //     {
+        //         id: 1,
+        //         sub: 'Token',
+        //         links: '/token'
+        //     },
+        //     {
+        //         id: 2,
+        //         sub: 'Connect Wallet',
+        //         links: '/connect'
+        //     },
+        //     {
+        //         id: 3,
+        //         sub: 'Core Team',
+        //         links: '/team_details'
+        //     },{
+        //         id: 4,
+        //         sub: 'Submit IGO on chain',
+        //         links: '/submit_igo'
+        //     },
+        //     {
+        //         id: 5,
+        //         sub: 'FAQs',
+        //         links: '/faqs'
+        //     },
+        //     {
+        //         id: 6,
+        //         sub: 'Login',
+        //         links: '/login'
+        //     },
+        //     {
+        //         id: 7,
+        //         sub: 'Register',
+        //         links: '/register'
+        //     },
+        //     {
+        //         id: 8,
+        //         sub: 'Forget Password',
+        //         links: '/forgetPass'
+        //     },
+        // ]
     },
     {
         id: 4,

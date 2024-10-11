@@ -2,15 +2,17 @@ import React from 'react';
 
 import PageTitle from '../components/pagetitle';
 import CTA from '../components/cta';
-import { Chart } from '../components/token/Chart';
 import { ImLinkedin } from "react-icons/im";
 import { FaSquareXTwitter } from "react-icons/fa6";
+
+import dataProject from '../assets/fake-data/data-project';
+import Teams from '../components/project/project_v2/Teams';
 
 
 function Token(props) {
     return (
         <div className='inner-page'>
-            {<PageTitle title='Token' />}
+            {<PageTitle title='Our Team' />}
 
             <section className="tf-section tf-token pt60">
                 <div className="container">
@@ -42,180 +44,14 @@ function Token(props) {
                             {/* </div> */}
                         </div>
                         
-                        <div className="col-md-12">
-                            <div className="tf-title left mt17 mb40" data-aos="fade-up" data-aos-duration="800">
-                                <h2 className="title" style={{textAlign:'center', marginTop:'40px'}}>
-                                    Our Advisor Team
-                                </h2> 
-                            </div>
-                        </div>
-                        <div className="col-md-12">
-                            <div className="tokenomics-wrapper" data-aos="fade-up" data-aos-duration="800">
-                                <div className="box">
-                                    <div className="td td1">
-                                        <p>Category</p>
-                                        <p>Marketing</p>
-                                    </div>
-                                    <div className="td td2">
-                                        <p>Allocation</p>
-                                        <p>14%</p>
-                                    </div>
-                                    {/* <div className="td td3">
-                                        <p>Raise</p>
-                                        <p>24,000,000</p>
-                                    </div>
-                                    <div className="td td4">
-                                        <p>Locked</p>
-                                        <p>12 Month</p>
-                                    </div>
-                                    <div className="td td5">
-                                        <p>Vesting (Month)</p>
-                                        <p>24</p>
-                                    </div> */}
-                                </div>
-
-                                {/* <div className="box">
-                                    <div className="td td1">
-                                        <p>Category</p>
-                                        <p>Ecosystem</p>
-                                    </div>
-                                    <div className="td td2">
-                                        <p>Allocation</p>
-                                        <p>	12%</p>
-                                    </div>
-                                    <div className="td td3">
-                                        <p>Raise</p>
-                                        <p>	65,000,00</p>
-                                    </div>
-                                    <div className="td td4">
-                                        <p>Locked</p>
-                                        <p>3 Month</p>
-                                    </div>
-                                    <div className="td td5">
-                                        <p>Vesting (Month)</p>
-                                        <p>9</p>
-                                    </div>
-                                </div>
-
-                                <div className="box">
-                                    <div className="td td1">
-                                        <p>Category</p>
-                                        <p>Team</p>
-                                    </div>
-                                    <div className="td td2">
-                                        <p>Allocation</p>
-                                        <p>8%</p>
-                                    </div>
-                                    <div className="td td3">
-                                        <p>Raise</p>
-                                        <p>70,000,00</p>
-                                    </div>
-                                    <div className="td td4">
-                                        <p>Locked</p>
-                                        <p>2 Month</p>
-                                    </div>
-                                    <div className="td td5">
-                                        <p>Vesting (Month)</p>
-                                        <p>16</p>
-                                    </div>
-                                </div>
-
-                                <div className="box">
-                                    <div className="td td1">
-                                        <p>Category</p>
-                                        <p>Advisors</p>
-                                    </div>
-                                    <div className="td td2">
-                                        <p>Allocation</p>
-                                        <p>5%</p>
-                                    </div>
-                                    <div className="td td3">
-                                        <p>Raise</p>
-                                        <p>	11,000,00</p>
-                                    </div>
-                                    <div className="td td4">
-                                        <p>Locked</p>
-                                        <p>6 Month</p>
-                                    </div>
-                                    <div className="td td5">
-                                        <p>Vesting (Month)</p>
-                                        <p>12</p>
-                                    </div>
-                                </div>
-
-                                <div className="box">
-                                    <div className="td td1">
-                                        <p>Category</p>
-                                        <p>Staking</p>
-                                    </div>
-                                    <div className="td td2">
-                                        <p>Allocation</p>
-                                        <p>22%</p>
-                                    </div>
-                                    <div className="td td3">
-                                        <p>Raise</p>
-                                        <p>9,000,000</p>
-                                    </div>
-                                    <div className="td td4">
-                                        <p>Locked</p>
-                                        <p>3 Month</p>
-                                    </div>
-                                    <div className="td td5">
-                                        <p>Vesting (Month)</p>
-                                        <p>4</p>
-                                    </div>
-                                </div>
-
-                                <div className="box">
-                                    <div className="td td1">
-                                        <p>Category</p>
-                                        <p>Private Round</p>
-                                    </div>
-                                    <div className="td td2">
-                                        <p>Allocation</p>
-                                        <p>45%</p>
-                                    </div>
-                                    <div className="td td3">
-                                        <p>Raise</p>
-                                        <p>88,000,000</p>
-                                    </div>
-                                    <div className="td td4">
-                                        <p>Locked</p>
-                                        <p>7 Month</p>
-                                    </div>
-                                    <div className="td td5">
-                                        <p>Vesting (Month)</p>
-                                        <p>4</p>
-                                    </div>
-                                </div>
-
-                                <div className="box">
-                                    <div className="td td1">
-                                        <p>Category</p>
-                                        <p>Exchange <br /> Liquidity</p>
-                                    </div>
-                                    <div className="td td2">
-                                        <p>Allocation</p>
-                                        <p>5.8%</p>
-                                    </div>
-                                    <div className="td td3">
-                                        <p>Raise</p>
-                                        <p>5,000,000</p>
-                                    </div>
-                                    <div className="td td4">
-                                        <p>Locked</p>
-                                        <p>1 Month</p>
-                                    </div>
-                                    <div className="td td5">
-                                        <p>Vesting (Month)</p>
-                                        <p>2</p>
-                                    </div>
-                                </div> */}
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
+
+            
+            {<Teams data={dataProject}/>}
+            {/* {<Project2 data={dataProject}/>} */}
+
 
             {<CTA />}
             

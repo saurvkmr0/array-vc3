@@ -67,6 +67,7 @@ const dataProject = [
         price_1: "100K",
         price_2: "23M",
         price_3: "$0",
+        category:"Tech",
     },  
     {
         id: 7, 
@@ -76,6 +77,7 @@ const dataProject = [
         price_1: "100K",
         price_2: "23M",
         price_3: "$0",
+        category:"Health",
     },  
     {
         id: 8, 
@@ -85,6 +87,7 @@ const dataProject = [
         price_1: "100K",
         price_2: "23M",
         price_3: "$0",
+        category:"Finance",
     },  
     {
         id: 9, 
@@ -94,6 +97,7 @@ const dataProject = [
         price_1: "100K",
         price_2: "23M",
         price_3: "$0",
+        category:"Finance",
     },  
     {
         id: 10, 
@@ -103,6 +107,7 @@ const dataProject = [
         price_1: "100K",
         price_2: "23M",
         price_3: "$0",
+        category:"Tech",
     },  
     {
         id: 11, 
