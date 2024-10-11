@@ -31,64 +31,6 @@ function Token(props) {
                                     Shruti started working with Machine Learning algorithms while working on her master's thesis in computer science from Columbia University on understanding user behavior on instant messaging platforms. While at IBM she worked on self learning algorithms that detected user location based on IP addresses, which she later incorporated into the Lotus Sametime product. Later, her company Penseev helped users make better connections with their friends based on social data.
                                     {/* When not investing, she is hacking on some app or thinking about ways she can be in many places at one time. Shruti also has an MBA from the University of Chicago, where she polished her finance skills before making the switch from engineer/founder to investor. */}
                                     </h6>
-                                {/* <ul className="describe_chart">
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_1.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Farming Pool</p>
-                                            <p className="number">27.3%</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_2.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Staking</p>
-                                            <p className="number">15.3%</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_3.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Ecosystem</p>
-                                            <p className="number">7.5%</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_4.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Advisor</p>
-                                            <p className="number">7.03%</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_5.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Private Sale</p>
-                                            <p className="number">23.45%</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_6.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Liquidity</p>
-                                            <p className="number">13.3%</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_7.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Marketing</p>
-                                            <p className="number">7.3%</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src={require ("../assets/images/chart/color_8.png")} alt="" />
-                                        <div className="desc">
-                                            <p className="name">Team</p>
-                                            <p className="number">5.3%</p>
-                                        </div>
-                                    </li>
-                                </ul> */}
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
@@ -118,7 +60,7 @@ function Token(props) {
                                         <p>Allocation</p>
                                         <p>14%</p>
                                     </div>
-                                    <div className="td td3">
+                                    {/* <div className="td td3">
                                         <p>Raise</p>
                                         <p>24,000,000</p>
                                     </div>
@@ -129,10 +71,10 @@ function Token(props) {
                                     <div className="td td5">
                                         <p>Vesting (Month)</p>
                                         <p>24</p>
-                                    </div>
+                                    </div> */}
                                 </div>
 
-                                <div className="box">
+                                {/* <div className="box">
                                     <div className="td td1">
                                         <p>Category</p>
                                         <p>Ecosystem</p>
@@ -268,7 +210,7 @@ function Token(props) {
                                         <p>Vesting (Month)</p>
                                         <p>2</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

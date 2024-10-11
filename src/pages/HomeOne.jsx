@@ -24,10 +24,10 @@ function HomeOne(props) {
 
            {<Banner data={dataBanner} />}
            {<Project data={dataProject}/>}
-           {<Project2 data={dataProject}/>}
-           {<Project3 data={dataProject}/>}
-
             {<Token />}
+           {<Project2 data={dataProject}/>}
+
+           {<Project3 data={dataProject}/>}
 
             {/* <Project4 data={dataProject} /> */}
 

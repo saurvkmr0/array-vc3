@@ -26,7 +26,7 @@ function ProjectV7(props) {
 
     const {data} = props;
     return (
-        <section className="tf-section project">
+        <section className="tf-section project" style={{marginBottom:'60px'}}>
                 <div className="container w_1280">
                     <div className="row">
                         <div className="col-md-12">

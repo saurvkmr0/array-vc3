@@ -29,14 +29,16 @@ function HomeThree(props) {
 
            {<ProjectV7 data={dataProject} />}
 
-            {<Featured2 data={dataFeatured} />}
 
             {<CTA3 />}
+
 
             {/* {<Project5 data={dataProject} />} */}
 
 
+            {<Featured2 data={dataFeatured} />}
             {<Step data={dataStep} />}
+            
 
             {<Partner4 data={dataPartner} />}
             
