@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function BlogDetails(props) {
     return (
         <div className='inner-page'>
-            {<PageTitle title='Blog Details' />}
+            {<PageTitle title='News' />}
 
 
             <section className="tf-section tf-blog pt60">
@@ -390,7 +390,7 @@ function BlogDetails(props) {
         </div>
     </section>
 
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );

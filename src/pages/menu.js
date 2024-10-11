@@ -127,17 +127,17 @@ const menus = [
         namesub: [
             {
                 id: 1,
-                sub: 'Blog Grid',
+                sub: '10x Growth',
                 links: '/blog_grid'
             },
             {
                 id: 2,
-                sub: 'Blog List',
+                sub: 'Podcast',
                 links: '/blog_list'
             },
             {
                 id: 3,
-                sub: 'Blog Detail',
+                sub: 'News',
                 links: '/blog_details'
             }
         ],

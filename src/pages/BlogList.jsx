@@ -11,7 +11,7 @@ import data from '../assets/fake-data/data-blog'
 function BlogList(props) {
     return (
         <div className='inner-page'>
-            {<PageTitle title='Blog List' />}
+            {<PageTitle title='Podcast' />}
 
             <section className="tf-section tf-blog pt60">
         <div className="container">
@@ -222,8 +222,8 @@ function BlogList(props) {
 
                    <div className="img-box">
                         <div className="overlay"></div>
-                        <h3>Launch <br />
-                            on Risebot</h3>
+                        <h3>Launch on<br />
+                            Array-VC</h3>
                         <p>Full support in project incubation</p>
                         <div className="wrap-btn">
                             <Link to="/submit_igo" className="tf-button style2">
@@ -237,7 +237,7 @@ function BlogList(props) {
     </section>
           
 
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );

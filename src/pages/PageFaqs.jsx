@@ -12,7 +12,7 @@ import dataFaq from '../assets/fake-data/data-faqs';
 function PageFaqs(props) {
     return (
         <div className='inner-page'>
-            {<PageTitle title='Faqs' />}
+            {<PageTitle title='Investments' />}
 
 
             <section className="tf-section tf-faq">
@@ -21,11 +21,11 @@ function PageFaqs(props) {
                 <div className="col-md-12">
                     <div className="tf-title center mb40" data-aos="fade-up" data-aos-duration="800">
                         <h2 className="title">
-                            hi we're here to help you
+                            Have a look on our Investments
                         </h2>
                     </div>
                 </div>
-                <div className="col-md-12">
+                {/* <div className="col-md-12">
                     <form action="#" className="form-seach mb20">
                         <input type="text" placeholder="All access" />
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,14 +33,14 @@ function PageFaqs(props) {
                         </svg>                            
                     </form>
                     <p className="text-center">Find answers to frequently asked questions.</p>
-                </div> 
+                </div>  */}
             </div>
         </div>
     </section>
 
         {<Faq2 />}
         
-        {<Faqs data={dataFaq} />} 
+        {/* {<Faqs data={dataFaq} />}  */}
 
     {/* <section className="tf-section FAQs">
         <div className="container ">
@@ -101,7 +101,7 @@ function PageFaqs(props) {
         </div>
     </section>  */}
 
-    <section className="tf-section questions"> 
+    {/* <section className="tf-section questions"> 
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
@@ -135,9 +135,9 @@ function PageFaqs(props) {
                 </div> 
             </div>
         </div>
-    </section>
+    </section> */}
 
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );

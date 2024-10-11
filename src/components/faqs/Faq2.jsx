@@ -14,7 +14,7 @@ function Faq2(props) {
                 <div className="col-md-12">
                     <div className="container_inner">
 
-                    <Swiper
+                    {/* <Swiper
                     className='slider-13'
                         modules={[Navigation]}
                             spaceBetween={30}
@@ -45,8 +45,197 @@ function Faq2(props) {
                              
                               }}
                        
-                        >
-                        <SwiperSlide>
+                        > */}
+                        <div style={{textAlign:'center', marginBottom:'40px'}}><h2 style={{color: 'var(--highlight-color)'}}>Our Exits</h2></div>
+
+                        <div style={{display:"flex", gap:'40px', justifyContent:'center', flexWrap:'wrap'}}>
+                            {/* <SwiperSlide> */}
+                                
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/simility.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/passage-ai.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/art19.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/hivy.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/lennd.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/tankutility.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/wootric.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        {/* <h6><Link to="#">(Acq by Paypal)</Link></h6> */}
+                                    </div>
+                                </div>
+
+                        </div>    
+
+
+
+                        <div style={{textAlign:'center', margin:'40px 0'}}><h2 style={{color: 'var(--highlight-color)'}}>Our investments</h2></div>
+
+                        <div style={{display:"flex", gap:'40px', justifyContent:'center', flexWrap:'wrap'}}>
+                            {/* <SwiperSlide> */}
+                                
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/tumble.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/shipyard.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/take44.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/vue.ai.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/zendar.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/uniform.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/vertalo.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/sliceup.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/stronghold.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                                <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                                    <div style={{maxWidth:'300px'}}>
+                                        <img src={require("../../assets/images/array-vc/projectsNew/zecops.png")}  />
+                                    </div>
+                                    <div>
+                                        <h6><Link to="#">AI/ML Fraud Managment</Link></h6>
+                                        <h6><Link to="#">(Acq by Paypal)</Link></h6>
+                                    </div>
+                                </div>
+
+                        </div> 
+                                
+
+
+
+                        {/* <SwiperSlide>
                             <div className="icon-box-style4">
                                         <div className="icon-wrapper">
                                             <svg width="65" height="68" viewBox="0 0 65 68" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,8 +364,10 @@ function Faq2(props) {
                                         </div> 
                                         <h6><Link to="#">Blockchain</Link></h6>
                                     </div>
-                        </SwiperSlide>
-                    </Swiper>
+                        </SwiperSlide> */}
+
+
+                    {/* </Swiper> */}
   
                     </div>
                 </div> 

@@ -9,7 +9,7 @@ import data from '../assets/fake-data/data-blog'
 function BlogGrid(props) {
     return (
         <div className='inner-page'>
-            {<PageTitle title='Blog Grid' />}
+            {<PageTitle title='10x Growth' />}
 
             <section className="tf-section tf-blog pt60">
         <div className="container">
@@ -72,7 +72,7 @@ function BlogGrid(props) {
         </div>
     </section>
             
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );
