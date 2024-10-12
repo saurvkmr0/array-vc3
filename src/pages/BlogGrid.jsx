@@ -16,26 +16,45 @@ function BlogGrid(props) {
             <div className="row"> 
 
                 {
-                    data.slice(0,9).map(item => (
+                    data.slice(0,10).map(item => (
                         <div key={item.id} className="col-lg-4 col-md-12">
                             <div className="grid-box">
-                                <div className="image">
-                                    <img src={item.img} alt="" />
+                            
+                                <div className="image" style={{backgroundColor:'#1e2835'}}>
+                                    {/* <img src={item.img} alt="" /> */}
+                                    <div style={{ width: '100%', aspectRatio: '16/9', position: 'relative' }}>
+                                    <iframe
+                                        title="vimeo-player"
+                                        src={item.vidSrc}
+                                        style={{
+                                        width: '100%',
+                                        height: '100%',
+                                        position: 'absolute',
+                                        top: 0,
+                                        left: 0,
+                                        }}
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    >
+                                    </iframe>
+                                </div>
+
+
                                 </div>
                                 <div className="content">
-                                    <Link to="/blog_details" className="tag">{item.cate}</Link>
+                                    {/* <Link to="/blog_details" className="tag">{item.cate}</Link> */}
                                     <h5 className="title"><Link to="/blog_details">{item.heading}</Link></h5>
-                                    <p>{item.text}</p>
+                                    {/* <p>{item.text}</p> */}
                                 </div>
-                                <Link to="/blog_details" className="tf-button style1">
+                                {/* <Link to="/blog_details" className="tf-button style1">
                                 Read more
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     ))
                 }
 
-                <div className="col-md-12">
+                {/* <div className="col-md-12">
                     <ul className="panigation"  data-aos="fade-up" data-aos-duration="800">
                         <li>
                             <Link to="#">
@@ -67,7 +86,7 @@ function BlogGrid(props) {
                             </Link>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

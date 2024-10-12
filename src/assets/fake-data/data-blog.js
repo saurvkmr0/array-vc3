@@ -20,75 +20,86 @@ import img19 from '../images/post/post_19.png';
 
 
 
+
 const dataBlog = [
     {
         id: 1,
+        vidSrc: "https://player.vimeo.com/video/518465060",
         img: img1,
-        heading: 'Decoded: Metaverse and the future of banking',
+        heading: 'VC Outlook in Enterprise Panel from Shruti Gandhi on Vimeo.',
         cate: 'Metaverse',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     },
     {
         id: 2,
         img: img2,
-        heading: 'Tapping the Metaverse for immersive service',
+        vidSrc: "https://player.vimeo.com/video/518474061",
+        heading: 'SPACs, IPOs, and more with Eric Ries and Katie Roof from Shruti Gandhi on Vimeo.',
         cate: 'Web 3.0',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 3,
         img: img3,
-        heading: 'JetSynthesys to invest $50 million to build metaverse...',
+        vidSrc: "https://player.vimeo.com/video/518705858",
+        heading: 'Catch&Release from Shruti Gandhi on Vimeo.',
         cate: 'Crypto Trade',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 4,
         img: img4,
-        heading: 'Creating a constitutional framework for metaverse',
+        vidSrc: "https://player.vimeo.com/video/518729613",
+        heading: 'Array Ventures Founder Pitches from Shruti Gandhi on Vimeo.',
         cate: 'Farming',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 5,
         img: img5,
-        heading: 'Disney CEO lays out early plan for digital future',
+        vidSrc: "https://player.vimeo.com/video/518706024",
+        heading: 'Blumira - Data from Shruti Gandhi on Vimeo.',
         cate: 'Metaverse',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 6,
         img: img6,
-        heading: 'Shemaroo to partner with Seracle for Web3 foray',
+        vidSrc: "https://player.vimeo.com/video/518706083",
+        heading: 'Placer from Shruti Gandhi on Vimeo.',
         cate: 'Web 3.0',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 7,
         img: img7,
-        heading: 'New VR jobs die down at Meta, Google amid hiring freeze...',
+        vidSrc: "https://player.vimeo.com/video/518705950",
+        heading: 'Capsule from Shruti Gandhi on Vimeo.',
         cate: 'Crypto Trade',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 8,
         img: img8,
-        heading: 'Digital India Act to police social media and OTT platforms',
+        vidSrc: "https://player.vimeo.com/video/518706198",
+        heading: 'Intentomatic from Shruti Gandhi on Vimeo.',
         cate: 'Farming',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 9,
         img: img9,
-        heading: 'Meta raises $10 billion in first-ever bond offering',
+        vidSrc: "https://player.vimeo.com/video/519638964",
+        heading: 'Jon Oberheide Duo Security acquired by Cisco from Shruti Gandhi on Vimeo.',
         cate: 'Metaverse',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
-
+    
     {
         id: 10,
         img: img10,
-        heading: 'Now Shemaroo offers movie theatre on metaverse',
+        vidSrc: "https://player.vimeo.com/video/519608773",
+        heading: 'Role of Data in Enterprise from Shruti Gandhi on Vimeo.',
         cate: 'IGOs',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     },
