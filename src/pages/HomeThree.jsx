@@ -30,7 +30,8 @@ function HomeThree(props) {
            {<ProjectV7 data={dataProject} />}
 
 
-            {<CTA3 />}
+            {/* shuriti's section */}
+            {/* {<CTA3 />} */}
 
 
             {/* {<Project5 data={dataProject} />} */}
