@@ -53,6 +53,7 @@ function Banner3(props) {
                             style={{
                               opacity: fadeOut ? 0 : 1,
                               transition: 'opacity 0.5s ease-in-out',
+                              color:"var(--highlight-color)"
                             }}
                           >
                             {currentText}

@@ -18,7 +18,7 @@ const ColorPicker = () => {
 
   return (
     <div className="color-picker">
-      {/* <label htmlFor="colorPicker" className="color-label">
+      <label htmlFor="colorPicker" className="color-label">
         🎨
       </label>
       <input
@@ -26,7 +26,7 @@ const ColorPicker = () => {
         type="color"
         value={highlightColor}
         onChange={handleColorChange}
-      /> */}
+      />
 
     </div>
   );

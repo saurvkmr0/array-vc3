@@ -27,6 +27,8 @@ function HomeOne(props) {
 
            {/* shuriti's section */}
             {/* {<Token />} */} 
+
+            
            {<Project2 data={dataProject}/>}
 
            {<Project3 data={dataProject}/>}
