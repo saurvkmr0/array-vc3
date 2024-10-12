@@ -26,7 +26,7 @@ function BlogDetails(props) {
                                 </g>
                             </svg> 
                             February 18, 2022</p>
-                        {/* <div className="spacing"></div> */}
+                        <div className="spacing"></div>
                         <div className="content-inner" style={{padding:'0'}}>
                             {/* <ul className="social">
                                 <li>
