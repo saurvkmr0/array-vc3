@@ -18,7 +18,7 @@ function BlogList(props) {
             <div className="row"> 
                 <div className="side-bar">
                     {
-                        data.slice(9,19).map(item => (
+                        data.slice(10,14).map(item => (
                             <div key={item.id} className="grid-box-style2" data-aos="fade-up" data-aos-duration="800">
                                 <div className="image">
                                     <img src={item.img} alt="" />
@@ -35,7 +35,7 @@ function BlogList(props) {
                         ))
                     }
 
-                    <ul className="panigation justify-content-start" data-aos="fade-up" data-aos-duration="800">
+                    {/* <ul className="panigation justify-content-start" data-aos="fade-up" data-aos-duration="800">
                         <li>
                             <Link to="#" className="ml0">
                                 <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,15 +65,15 @@ function BlogList(props) {
                                 </svg>
                             </Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div> 
                 <article className="article">
-                    <form action="#" className="form-seach mb33">
+                    {/* <form action="#" className="form-seach mb33">
                         <input type="text" placeholder="Search..." />
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.0008 18.9998L13.8038 13.8028M13.8038 13.8028C15.2104 12.3962 16.0006 10.4885 16.0006 8.49931C16.0006 6.51011 15.2104 4.60238 13.8038 3.19581C12.3972 1.78923 10.4895 0.999023 8.50028 0.999023C6.51108 0.999023 4.60336 1.78923 3.19678 3.19581C1.79021 4.60238 1 6.51011 1 8.49931C1 10.4885 1.79021 12.3962 3.19678 13.8028C4.60336 15.2094 6.51108 15.9996 8.50028 15.9996C10.4895 15.9996 12.3972 15.2094 13.8038 13.8028V13.8028Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>                            
-                    </form>
+                    </form> */}
                     <div className="widget">
                         <h6 className="widget-title-st2">
                             Categories
@@ -111,7 +111,7 @@ function BlogList(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_20.png")} alt="" />
+                                        <img src={require ("../assets/images/common/icon_1.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_details" className="date">
@@ -127,7 +127,7 @@ function BlogList(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_21.png")} alt="" />
+                                        <img src={require ("../assets/images/common/icon_4.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_details" className="date">
@@ -143,7 +143,7 @@ function BlogList(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_22.png")} alt="" />
+                                        <img src={require ("../assets/images/common/icon_6.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_details" className="date">
@@ -159,7 +159,7 @@ function BlogList(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_23.png")} alt="" />
+                                        <img src={require ("../assets/images/common/wallet_3.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_details" className="date">
@@ -175,7 +175,7 @@ function BlogList(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_24.png")} alt="" />
+                                        <img src={require ("../assets/images/common/wallet_2.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_details" className="date">

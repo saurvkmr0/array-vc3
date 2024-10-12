@@ -105,29 +105,29 @@ const dataBlog = [
     },
     {
         id: 11,
-        img: img11,
-        heading: 'Skepticism, confusion, frustration: Inside Mark Zuckerbergs metaverse struggles',
+        img: "https://array.vc/static/img/JudyLoehr.70cefa3.jpg",
+        heading: 'Judy Loehr - Enterprise SaaS Executive, Original Salesforce PM, Zuora, ServiceMax',
         cate: 'Metaverse',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 12,
-        img: img12,
-        heading: 'Tencent shifts focus to majority deals, overseas gaming assets for growth: sources',
+        img: "https://array.vc/static/img/MonikaSaha.1912052.png",
+        heading: 'Monica Saha - Delphix CMO, Employee #11 at Zuora thru IPO',
         cate: 'Crypto Trade',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 13,
-        img: img13,
-        heading: 'Meta working to speed up metaverse, but success far from certain',
+        img: "https://array.vc/static/img/AnthaniKrishna.91cc66d.jpg",
+        heading: 'Anthani Krishna - Servicemax CPO and co-founder thru $1B acquisition by GE Digital',
         cate: 'Web 3.0',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
     {
         id: 14,
-        img: img14,
-        heading: 'Microsoft brings animated avatars to Teams in metaverse push',
+        img: "https://array.vc/static/img/shruti-new.6e8e70e.jpg",
+        heading: 'Shruti Gandhi - Engineer and Investor at Array Ventures',
         cate: 'Crypto Trade',
         text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
     }, 
