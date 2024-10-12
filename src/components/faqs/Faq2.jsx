@@ -46,13 +46,13 @@ function Faq2(props) {
                               }}
                        
                         > */}
-                        <div style={{textAlign:'center', marginBottom:'40px'}}><h2 style={{color: 'var(--highlight-color)'}}>Our Exits</h2></div>
+                        <div style={{textAlign:'center', marginBottom:'40px'}}><h3 style={{color: 'var(--highlight-color)'}}>Our Exits</h3></div>
 
                         <div style={{display:"flex", gap:'40px', justifyContent:'center', flexWrap:'wrap'}}>
                             {/* <SwiperSlide> */}
                                 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/simility.png")}  />
                                     </div>
                                     <div>
@@ -62,7 +62,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/passage-ai.png")}  />
                                     </div>
                                     <div>
@@ -72,7 +72,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/art19.png")}  />
                                     </div>
                                     <div>
@@ -82,7 +82,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/hivy.png")}  />
                                     </div>
                                     <div>
@@ -92,7 +92,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/lennd.png")}  />
                                     </div>
                                     <div>
@@ -102,7 +102,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/tankutility.png")}  />
                                     </div>
                                     <div>
@@ -112,7 +112,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/wootric.png")}  />
                                     </div>
                                     <div>
@@ -125,13 +125,13 @@ function Faq2(props) {
 
 
 
-                        <div style={{textAlign:'center', margin:'40px 0'}}><h2 style={{color: 'var(--highlight-color)'}}>Our investments</h2></div>
+                        <div style={{textAlign:'center', margin:'40px 0'}}><h3 style={{color: 'var(--highlight-color)'}}>Our Investments</h3></div>
 
                         <div style={{display:"flex", gap:'40px', justifyContent:'center', flexWrap:'wrap'}}>
                             {/* <SwiperSlide> */}
                                 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/tumble.png")}  />
                                     </div>
                                     <div>
@@ -141,7 +141,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/shipyard.png")}  />
                                     </div>
                                     <div>
@@ -151,7 +151,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/take44.png")}  />
                                     </div>
                                     <div>
@@ -161,7 +161,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/vue.ai.png")}  />
                                     </div>
                                     <div>
@@ -171,7 +171,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/zendar.png")}  />
                                     </div>
                                     <div>
@@ -181,7 +181,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/uniform.png")}  />
                                     </div>
                                     <div>
@@ -191,7 +191,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/vertalo.png")}  />
                                     </div>
                                     <div>
@@ -201,7 +201,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/sliceup.png")}  />
                                     </div>
                                     <div>
@@ -211,7 +211,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/stronghold.png")}  />
                                     </div>
                                     <div>
@@ -221,7 +221,7 @@ function Faq2(props) {
                                 </div>
 
                                 <div className="icon-box-style4" style={{ display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
-                                    <div style={{maxWidth:'300px'}}>
+                                    <div style={{width:'300px'}}>
                                         <img src={require("../../assets/images/array-vc/projectsNew/zecops.png")}  />
                                     </div>
                                     <div>

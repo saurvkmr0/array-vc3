@@ -46,7 +46,7 @@ function Project(props) {
                     </div>
                     <div className="col-md-12">
                         <div className="container_inner">
-                            <div style={{ display: 'flex', gap: '10px', justifyContent: 'center', marginBottom: '40px' }}>
+                            <div style={{ display: 'flex', gap: '10px', justifyContent: 'center', marginBottom: '40px', flexWrap:'wrap' }}>
                                 <Button title="All" onClick={() => handleCategoryClick('All')} addclass="style2" />
                                 <Button title="Tech" onClick={() => handleCategoryClick('Tech')} addclass="style2" />
                                 <Button title="Health" onClick={() => handleCategoryClick('Health')} addclass="style2" />
