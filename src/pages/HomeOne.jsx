@@ -24,7 +24,9 @@ function HomeOne(props) {
 
            {<Banner data={dataBanner} />}
            {<Project data={dataProject}/>}
-            {<Token />}
+
+           {/* shuriti's section */}
+            {/* {<Token />} */} 
            {<Project2 data={dataProject}/>}
 
            {<Project3 data={dataProject}/>}
