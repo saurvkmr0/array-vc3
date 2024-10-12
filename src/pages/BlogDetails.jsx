@@ -16,7 +16,9 @@ function BlogDetails(props) {
             <div className="row"> 
                 <div className="side-bar">
                     <div className="post-details">
-                        <h4 className="title">Meta unveils its much-hyped Quest Pro mixed reality headset at Meta Connect 2022, priced at $1,500</h4>
+                        <h4 className="title">
+                            We at Array Ventures are really excited about our enterprise event next week on June 4th. We have some awesome panels and great pitches from some of our companies.
+                        </h4>
                         <p className="date mb18"> 
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.5">
@@ -52,38 +54,19 @@ function BlogDetails(props) {
                                 </li>
                             </ul>
                             <div className="content-post">
-                                <p className="sub-title">The launch is an important step for Zuckerberg, who last year announced plans for 
-                                    the device - then called Project Cambria - at the same time that he changed his company's 
-                                    name from Facebook to Meta to signal his intention to refocus the social 
-                                    media giant into a company that operates a shared immersive computing experience known as the metaverse.</p>
-                                <div className="image">
-                                    <img src={require ("../assets/images/post/post_25.png")} alt="" />
+                                <div className="image" style={{textAlign:'center'}}>
+                                    <img src="https://array.vc/static/img/Mid-Year_Update_Overview.jpg" alt="" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
-                                <p>Meta Platforms unveiled its Quest Pro virtual and mixed reality headset on Tuesday, marking a milestone for Chief Executive Mark Zuckerberg's break into the higher-end market for extended reality computing devices.</p>
-                                <p>The new headset, unveiled at Meta's annual Connect conference, will hit shelves on Oct 25 at a price of $1,500, and will offer consumers a way to interact with virtual creations overlaid onto a full-color view of the physical world around them.</p>
-                                <p>The launch is an important step for Zuckerberg, who last year announced plans for the device - then called Project Cambria - at the same time that he changed his company's name from Facebook to Meta to signal his intention to refocus the social media giant into a company that operates a shared immersive computing experience known as the metaverse.</p>
-                                <p>Zuckerberg has since poured billions of dollars into that vision. Reality Labs, the Meta unit responsible for bringing the metaverse to life, lost $10.2 billion in 2021 and has lost nearly $6 billion so far this year.</p>
-                                <p>The Quest Pro features several upgrades over Meta's existing Quest 2 headset, which overwhelmingly dominates the consumer virtual reality market.</p>
-                                <p>Most strikingly, it has outward-facing cameras that capture a sort of 3D livestream of the physical environment around a wearer, enabling mixed reality novelties like the ability to hang a virtual painting on a real-world wall or have a virtual ball bounce off a real table.</p>
-                                <p>The Quest 2, by contrast, offers a more rudimentary grayscale version of this technology, called passthrough.</p>
-                                <p>The Quest Pro is lighter and slimmer than its predecessors, with thin pancake lenses and a relocated battery that sits at the back of the headset, distributing its weight more evenly while reducing overall bulk.</p>
-                                <p className="mb28">For fully immersive virtual reality, Meta has added tracking sensors to the Quest Pro that can replicate users' eye movements and facial expressions, creating a sense that avatars are making eye contact.</p>
-                                <h5 className="title-st">Pitching productivity</h5>
-                                <p>Meta is pitching the Quest Pro as a productivity device, aimed at designers, architects and other creative professionals.</p>
-                                <p>In addition to offering its own Horizon social and workspace platforms, the company has also made virtual versions of Microsoft work products like Word, Outlook and Teams available.</p>
-                                <p>At a preview of the device days before its launch, Meta gave reporters a glimpse of the type of user it had in mind by showcasing apps like Tribe XR, a virtual training environment for DJs learning how to use complex equipment.</p>
+                                    <p className="sub-title">
+                                For our panel on the state of enterprise investing, Ajay Chopra, Jai Das, and Joseph Floyd – partners of top VC firms such as Trinity Ventures, Vista Equity Partners, Sapphire Ventures – will tell us what they look for in companies while investing at Series A to Growth Stage companies.
+                                </p>
+                                
                                 <div className="image mb12">
-                                    <img src={require ("../assets/images/post/post_29.png")} alt="" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <img src="https://array.vc/static/img/Mid-Year_Update_Panel1.jpg" alt="" />
+                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> */}
                                 </div>
-                                <p>Tribe XR is already available in virtual reality, but a demonstration showed how passthrough technology may enable DJs to use the app to play real-world gigs, as it means they can look out past their virtual equipment at actual partygoers.</p>
-                                <p>Meta plans to sell the Quest Pro in consumer channels to start, while adding enterprise-level capabilities like mobile device management, authentication and premium support services next year, executives said at the press event.</p>
-                                <p>They said the device is intended to complement rather than replace the entry-level Quest 2, which sells for $399.99.</p>
-                                <p>For now, that means the Quest Pro stops short of enabling the complex commercial applications Meta has suggested it wants its metaverse tech to support.</p>
-                                <p>The company is still working on a mixed reality experience for its Horizon Workrooms app that would make a person's avatar appear to be present in a real-world conference room with other users, which it is calling Magic Rooms.</p>
-                                <p>Still, the Quest Pro's price point puts it well under the cost of existing enterprise-focused devices like Microsoft's Hololens 2, which was released for commercial use in 2019 and is already present in operating rooms and on factory floors.</p>
-                                <p>An entry-level Hololens 2 sells for $3,500.</p>
+                                    <p className="sub-title">Then, for our panel on data driven businesses, Richard Socher, Lukas Biewald, Bala Sahejpal, and moderator Jocelyn Goldfein will tell us how businesses should reinvent themselves using data and AI.</p>
                                 <div className="spacing mg28"></div>
                                 <ul className="tag mb30">
                                     <li>Tags:</li>
@@ -99,7 +82,7 @@ function BlogDetails(props) {
                             <div className="wrapper-related-post">
                                 <div className="grid-box">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_26.png")} alt="" />
+                                        <img src={require ("../assets/images/array-vc/startup.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="#" className="tag">Metaverse</Link>
@@ -112,7 +95,7 @@ function BlogDetails(props) {
                                 </div>
                                 <div className="grid-box">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_27.png")} alt="" />
+                                        <img src={require ("../assets/images/array-vc/startup.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="#" className="tag">Metaverse</Link>
@@ -125,7 +108,7 @@ function BlogDetails(props) {
                                 </div>
                                 <div className="grid-box">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_28.png")} alt="" />
+                                        <img src={require ("../assets/images/array-vc/startup.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="#" className="tag">Metaverse</Link>
@@ -265,7 +248,7 @@ function BlogDetails(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_20.png")} alt="" />
+                                        <img src={require ("../assets/images/common/icon_4.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_list" className="date">
@@ -281,7 +264,7 @@ function BlogDetails(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_21.png")} alt="" />
+                                        <img src={require ("../assets/images/common/icon_6.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_list" className="date">
@@ -297,7 +280,7 @@ function BlogDetails(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_22.png")} alt="" />
+                                        <img src={require ("../assets/images/common/wallet_3.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_list" className="date">
@@ -313,7 +296,7 @@ function BlogDetails(props) {
                             <li>
                                 <div className="recent-posts">
                                     <div className="image">
-                                        <img src={require ("../assets/images/post/post_23.png")} alt="" />
+                                        <img src={require ("../assets/images/common/wallet_2.png")} alt="" />
                                     </div>
                                     <div className="content">
                                         <Link to="/blog_list" className="date">
@@ -327,7 +310,7 @@ function BlogDetails(props) {
                                 </div>
                             </li>
                             <li>
-                                <div className="recent-posts">
+                                {/* <div className="recent-posts">
                                     <div className="image">
                                         <img src={require ("../assets/images/post/post_24.png")} alt="" />
                                     </div>
@@ -340,7 +323,7 @@ function BlogDetails(props) {
                                         </Link>
                                         <Link to="/blog_list" className="title">It's Not Too Late to Save the Metaverse</Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </li> 
                         </ul>
                     </div>
@@ -376,8 +359,8 @@ function BlogDetails(props) {
 
                    <div className="img-box">
                         <div className="overlay"></div>
-                        <h3>Launch <br />
-                            on Risebot</h3>
+                        <h3>Launch on <br />
+                            Array VC</h3>
                         <p>Full support in project incubation</p>
                         <div className="wrap-btn">
                             <Link to="/submit_igo" className="tf-button style2">
