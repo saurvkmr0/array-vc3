@@ -26,9 +26,9 @@ function BlogDetails(props) {
                                 </g>
                             </svg> 
                             February 18, 2022</p>
-                        <div className="spacing"></div>
-                        <div className="content-inner">
-                            <ul className="social">
+                        {/* <div className="spacing"></div> */}
+                        <div className="content-inner" style={{padding:'0'}}>
+                            {/* <ul className="social">
                                 <li>
                                     <Link to="#">
                                         <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@ function BlogDetails(props) {
                                             </svg> 
                                     </Link>
                                 </li>
-                            </ul>
+                            </ul> */}
                             <div className="content-post">
                                 <div className="image" style={{textAlign:'center'}}>
                                     <img src="https://array.vc/static/img/Mid-Year_Update_Overview.jpg" alt="" />
@@ -126,7 +126,7 @@ function BlogDetails(props) {
 
                             <div className="comment-box s1">
                                 <div className="avt">
-                                    <img src={require ("../assets/images/post/comment_1.png")} alt="" />
+                                    <img src={require ("../assets/images/common/team_1.png")} alt="" />
                                 </div>
                                 <div className="info">
                                     <h6 className="name">Annette Black</h6>
@@ -137,7 +137,7 @@ function BlogDetails(props) {
                             </div>
                             <div className="comment-box rep">
                                 <div className="avt">
-                                    <img src={require ("../assets/images/post/comment_2.png")} alt="" />
+                                    <img src={require ("../assets/images/common/team_2.png")} alt="" />
                                 </div>
                                 <div className="info">
                                     <h6 className="name">Darlene Robertson</h6>
@@ -148,7 +148,7 @@ function BlogDetails(props) {
                             </div>
                             <div className="comment-box">
                                 <div className="avt">
-                                    <img src={require ("../assets/images/post/comment_3.png")} alt="" />
+                                    <img src={require ("../assets/images/common/team_3.png")} alt="" />
                                 </div>
                                 <div className="info">
                                     <h6 className="name">Ronald Richards</h6>
@@ -159,7 +159,7 @@ function BlogDetails(props) {
                             </div>
                             <div className="comment-box">
                                 <div className="avt">
-                                    <img src={require ("../assets/images/post/comment_4.png")} alt="" />
+                                    <img src={require ("../assets/images/common/team_4.png")} alt="" />
                                 </div>
                                 <div className="info">
                                     <h6 className="name">Theresa Webb</h6>
@@ -205,12 +205,12 @@ function BlogDetails(props) {
                     </div>
                 </div> 
                 <article className="article">
-                    <form action="#" className="form-seach mb33">
+                    {/* <form action="#" className="form-seach mb33">
                         <input type="text" placeholder="Search..." />
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.0008 18.9998L13.8038 13.8028M13.8038 13.8028C15.2104 12.3962 16.0006 10.4885 16.0006 8.49931C16.0006 6.51011 15.2104 4.60238 13.8038 3.19581C12.3972 1.78923 10.4895 0.999023 8.50028 0.999023C6.51108 0.999023 4.60336 1.78923 3.19678 3.19581C1.79021 4.60238 1 6.51011 1 8.49931C1 10.4885 1.79021 12.3962 3.19678 13.8028C4.60336 15.2094 6.51108 15.9996 8.50028 15.9996C10.4895 15.9996 12.3972 15.2094 13.8038 13.8028V13.8028Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>                            
-                    </form>
+                    </form> */}
                     <div className="widget">
                         <h6 className="widget-title-st2">
                             Categories
