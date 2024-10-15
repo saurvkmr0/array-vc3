@@ -172,70 +172,70 @@ const dataProject = [
     {
         id: 18, 
         img: img12,
-        title: "Modern Combat Versus",
+        title: "Project 1",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt1
     }, 
     {
         id: 19, 
         img: img13,
-        title: "Modern Combat Versus",
+        title: "Project 2",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 
     {
         id: 20, 
         img: img14,
-        title: "Modern Combat Versus",
+        title: "Project 3",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt1
     }, 
     {
         id: 21, 
         img: img15,
-        title: "Modern Combat Versus",
+        title: "Project 4",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 
     {
         id: 22, 
         img: img16,
-        title: "Modern Combat Versus",
+        title: "Project 5",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 
     {
         id: 23, 
         img: img17,
-        title: "Modern Combat Versus",
+        title: "Project 6",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 
     {
         id: 24, 
         img: img18,
-        title: "Modern Combat Versus",
+        title: "Project 7",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 
     {
         id: 25, 
         img: img19,
-        title: "Modern Combat Versus",
+        title: "Project 8",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 
     {
         id: 26, 
         img: img20,
-        title: "Modern Combat Versus",
+        title: "Project 9",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 
     {
         id: 27, 
         img: img21,
-        title: "Modern Combat Versus",
+        title: "Project 10",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         avt: avt2
     }, 

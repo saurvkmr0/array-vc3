@@ -12,17 +12,20 @@ import data from '../assets/fake-data/data-project'
 function Project1(props) {
 
     const [startIndex,setStartIndex] = useState(17);
-    const [endIndex,setEndIndex] = useState(20);
+    const [endIndex,setEndIndex] = useState(22);
+    const [projectType,setProjectType] = useState("ongoing");
       // Function to handle the "Ongoing Project" click
   const showOngoingProjects = () => {
     setStartIndex(17);
     setEndIndex(22);
-  };
+    setProjectType("ongoing");
+};
 
-  // Function to handle the "Upcoming Project" click
-  const showUpcomingProjects = () => {
+// Function to handle the "Upcoming Project" click
+const showUpcomingProjects = () => {
     setStartIndex(23);
     setEndIndex(26); // End index should be 26 to include the project at index 25
+    setProjectType("upcoming");
   };
 
     const [dataTab] = useState([
@@ -42,7 +45,10 @@ function Project1(props) {
     ]);
     return (
         <div className='inner-page'>
-            {<PageTitle />}
+            {
+                projectType==='ongoing'?<PageTitle title={"Ongoing Project"}/>:<PageTitle title={"Upcoming Project"}/>
+            }
+            
 
 
             <section className="tf-section project">
@@ -118,7 +124,7 @@ function Project1(props) {
                                                                                     </div> 
                                                                                 </div>
                                                                                 <div className="content-bottom"> 
-                                                                                    <div className="content-progress-box style2">
+                                                                                    {/* <div className="content-progress-box style2">
                                                                                         <div className="progress-bar" data-percentage="95%">
                                                                                             <p className="progress-title-holder">
                                                                                                 <span className="progress-title">
@@ -136,7 +142,7 @@ function Project1(props) {
                                                                                                 <div className="progress-content"></div>
                                                                                             </div> 
                                                                                         </div> 
-                                                                                    </div>
+                                                                                    </div> */}
                                                                                     <ul className="sub-content">
                                                                                         <li>
                                                                                             <p>Valuation</p>
