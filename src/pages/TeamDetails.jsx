@@ -8,12 +8,21 @@ import PageTitle from '../components/pagetitle';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
+import people1 from '../assets/images/common/team_1.png'
+import people2 from '../assets/images/common/team_2.png'
+import people3 from '../assets/images/common/team_3.png'
+import people4 from '../assets/images/common/team_4.png'
+import people5 from '../assets/images/common/team_5.png'
+import people6 from '../assets/images/common/team_6.png'
+import people7 from '../assets/images/common/team_7.png'
+import people9 from '../assets/images/common/team_8.png'
+
 const blogs = [
     {
         id: 1,
         name: 'Darrell Steward',
         designation: 'Developer',
-        img: '',
+        img: people1,
         descp1:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla rutrum eros, vitae fringilla metus sodales vel. Praesent vehicula ac nunc sit amet rhoncus. In vel ligula et nulla scelerisque suscipit. Quisque in nisi viverra, mattis felis id, porttitor dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         descp2:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla rutrum eros, vitae fringilla metus sodales vel. Praesent vehicula ac nunc sit amet rhoncus. In vel ligula et nulla scelerisque suscipit. Quisque in nisi viverra, mattis felis id, porttitor dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         postDate: '26th Feb, 2023',
@@ -22,21 +31,21 @@ const blogs = [
         id: 2,
         name: 'Jonson Kate',
         designation: 'Junior Developer',
-        img: '',
+        img: people2,
         postDate: '12th Sept, 2024',
     },
     {
         id: 3,
         name: 'Linda Will',
         designation: 'Designer',
-        img: '',
+        img: people3,
         postDate: '3th Nov, 2024',
     },
     {
         id:4,
         name: 'Chris K.',
         designation: 'Business Anylist',
-        img: '',
+        img: people4,
         postDate: '9th Nov, 2024',
     },
 ];
@@ -70,7 +79,7 @@ function TeamDetails(props) {
                             {blogs.map((item)=>(
                                 <div className="project-box" style={{width:'340px'}}>
                                 <div className="image">
-                                    <img src={require("../assets/images/common/team_5.png")} alt="" />
+                                    <img src={item.img} alt="" />
                                     </div>
                                         <div className="content">
                                             <span className="boder"></span>
@@ -97,7 +106,7 @@ function TeamDetails(props) {
                                     <div className="team-details">
                                         <div className="image_wrapper">
                                             <div className="image">
-                                                <img src={require("../assets/images/common/team_5.png")} alt="" />
+                                                <img src={item.img} alt="" />
                                             </div>
                                         </div> 
                                         <div className="content">

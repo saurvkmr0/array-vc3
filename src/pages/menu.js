@@ -150,7 +150,7 @@ const menus = [
     {
         id: 6,
         name: 'Project',
-        links: '/faqs',
+        // links: '/faqs',
         namesub: [
             {
                 id: 1,
