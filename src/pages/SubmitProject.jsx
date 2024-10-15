@@ -207,7 +207,7 @@ function SubmitProject(props) {
     </section>
 
 
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );

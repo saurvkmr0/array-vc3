@@ -16,6 +16,7 @@ import Step from '../components/Step/Step';
 import dataStep from '../assets/fake-data/data-step';
 import Partner4 from '../components/partner/Partner4';
 import CTA from '../components/cta';
+import Project2 from '../components/project/project_v2';  
 
 
 
@@ -37,7 +38,9 @@ function HomeThree(props) {
             {/* {<Project5 data={dataProject} />} */}
 
 
-            {<Featured2 data={dataFeatured} />}
+            {/* {<Featured2 data={dataFeatured} />} */}
+            {<Project2 data={dataProject}/>}
+
             {<Step data={dataStep} />}
             
 

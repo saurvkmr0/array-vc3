@@ -220,7 +220,7 @@ function ProjectList(props) {
                 </div>
             </section>
 
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );

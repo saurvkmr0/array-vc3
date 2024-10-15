@@ -440,7 +440,7 @@ function ProjectDetails(props) {
     </section>
 
            
-            {<CTA />}
+            {/* {<CTA />} */}
 
             <section className="tf-section project_2">
         <div className="container">

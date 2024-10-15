@@ -53,8 +53,8 @@ function Project(props) {
                                 <Button title="Finance" onClick={() => handleCategoryClick('Finance')} addclass="style2" />
                             </div>
 
-                            <div className="slider-2 navigation_project">
-                                <Swiper
+                            <div className="slider-2 navigation_project" style={{display:'flex', flexWrap:'wrap', gap:'40px', justifyContent:'center' }}>
+                                {/* <Swiper
                                     modules={[Navigation]}
                                     spaceBetween={30}
                                     slidesPerView={1}
@@ -73,13 +73,13 @@ function Project(props) {
                                             slidesPerView: 4,
                                         },
                                     }}
-                                >
+                                > */}
                                     {filteredData.map((item) => (
-                                        <SwiperSlide key={item.id}>
+                                        <SwiperSlide key={item.id} style={{width:'320px'}}>
                                             <ProjectItem item={item} />
                                         </SwiperSlide>
                                     ))}
-                                </Swiper>
+                                {/* </Swiper> */}
                             </div>
                         </div>
                     </div>

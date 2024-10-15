@@ -78,7 +78,7 @@ function Project2(props) {
                                         {
                                                 dataTab.map(idx => (
                                                     <TabPanel key={idx.id} className='content-tab mt40'>
-                                                        <div className="content-inner project-box-style6_wrapper">
+                                                        <div key={idx.id} className="content-inner project-box-style6_wrapper">
                                                             {
                                                                 data.slice(6,10).map(item => (
                                                                     <div key={item.id} className="content-inner project-box-style4">
@@ -166,7 +166,7 @@ function Project2(props) {
                 </div>
             </section>
 
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );
