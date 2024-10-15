@@ -27,13 +27,14 @@
     }
     #main-nav {
         position: absolute;
-        left: 37%;
+
+        left: 30%;
         top: 50%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
-        padding-left: 10px;
+        // padding-left: 10px;
         @include res1200 {
             left: 30%;
         }
