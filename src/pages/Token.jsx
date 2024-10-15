@@ -8,6 +8,31 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import dataProject from '../assets/fake-data/data-project';
 import Teams from '../components/project/project_v2/Teams';
 
+const DevOps = [
+    {
+        id:1,
+        img:'',
+        name: 'Alex',
+        designation:'Cloud DevOps Engineer',
+        descp:' I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.',
+    },
+    {
+        id:1,
+        img:'',
+        name: 'Marry',
+        designation:'Platform Engineer',
+        descp:' I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.',
+    },
+    {
+        id:1,
+        img:'',
+        name: 'Ranu',
+        designation:'DevOps',
+        descp:' I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.',
+    },
+    
+]
+
 
 function Token(props) {
     return (
@@ -53,7 +78,38 @@ function Token(props) {
             {/* {<Project2 data={dataProject}/>} */}
 
 
-            {<CTA />}
+            {/* DevOPS section */}
+            {/* <h2 className="title" style={{textAlign:'center', marginBottom:'40px'}}>Dev Ops</h2> */}
+                <div className="tf-title" data-aos="fade-up" data-aos-duration="800">
+                            <h2 className="title">
+                                Dev Ops 
+                            </h2>
+                        </div>
+            
+                <div className="" style={{display:'flex', flexWrap:'wrap', gap:'40px', justifyContent:'center', margin:'0px 60px'}}>
+                {
+                    DevOps.map((item)=>{
+                        return(
+                        <div className="" style={{backgroundColor:'#1e2835',width:'320px', padding:'40px', borderRadius:'20px'}} key={item.id}>
+                            <div className="content">
+                                <div className="content-inner" style={{textAlign:'left'}}>
+                                    <h5 className="heading">{item.name}</h5>
+                                    <p style={{ backgroundColor: "var(--highlight-color)", color: '#000', padding: '2px 10px', borderRadius: '5px', width: 'auto', display: 'inline-block' }}>
+                                        {item.designation}
+                                    </p>
+                                    <p>{item.descp}</p>
+                                </div>
+                            </div> 
+                        </div>
+                        )
+                    })
+                }
+                
+            </div>
+
+
+
+            {/* {<CTA />} */}
             
         </div>
     );

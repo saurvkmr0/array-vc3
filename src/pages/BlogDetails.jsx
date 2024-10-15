@@ -328,7 +328,7 @@ function BlogDetails(props) {
                         </ul>
                     </div>
 
-                    <div className="widget mb22">
+                    {/* <div className="widget mb22">
                         <h6 className="widget-title-st2">
                             Popular Tags
                         </h6>
@@ -349,13 +349,13 @@ function BlogDetails(props) {
                                 <Link to="/blog_list">cryptocurrency</Link>
                             </li> 
                             <li> 
-                                <Link to="/blog_list">Ttoken</Link>
+                                <Link to="/blog_list">Token</Link>
                             </li> 
                             <li> 
                                 <Link to="/blog_list">Digital</Link>
                             </li> 
                         </ul>
-                    </div>
+                    </div> */}
 
                    <div className="img-box">
                         <div className="overlay"></div>

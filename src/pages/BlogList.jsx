@@ -191,7 +191,7 @@ function BlogList(props) {
                         </ul>
                     </div>
 
-                    <div className="widget mb22">
+                    {/* <div className="widget mb22">
                         <h6 className="widget-title-st2">
                             Popular Tags
                         </h6>
@@ -218,7 +218,7 @@ function BlogList(props) {
                                 <Link to="/blog_details">Digital</Link>
                             </li> 
                         </ul>
-                    </div>
+                    </div> */}
 
                    <div className="img-box">
                         <div className="overlay"></div>
