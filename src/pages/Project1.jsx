@@ -10,19 +10,34 @@ import data from '../assets/fake-data/data-project'
 
 
 function Project1(props) {
+
+    const [startIndex,setStartIndex] = useState(17);
+    const [endIndex,setEndIndex] = useState(20);
+      // Function to handle the "Ongoing Project" click
+  const showOngoingProjects = () => {
+    setStartIndex(17);
+    setEndIndex(22);
+  };
+
+  // Function to handle the "Upcoming Project" click
+  const showUpcomingProjects = () => {
+    setStartIndex(23);
+    setEndIndex(26); // End index should be 26 to include the project at index 25
+  };
+
     const [dataTab] = useState([
         {
             id: 1,
-            title: 'Open IGO',
+            title: 'Ongoing Project',
         },
         {
             id: 2,
-            title: 'Upcoming',
+            title: 'Upcoming Project',
         },
-        {
-            id: 3,
-            title: 'Past IGO',
-        },
+        // {
+        //     id: 3,
+        //     title: 'Past IGO',
+        // },
 
     ]);
     return (
@@ -37,17 +52,19 @@ function Project1(props) {
                             <div className="flat-tabs" data-aos="fade-up" data-aos-duration="1000">
                                 
                                 <Tabs>
-                                    <div className="wrapper_menutab">
+                                    <div className="wrapper_menutab" >
                                         <TabList className='menu-tab'>
-                                            {
+                                            {/* {
                                                 dataTab.map(idx => (
                                                     <Tab className='fs-14 h6' key={idx.id}>{idx.title}</Tab>
                                                 ))
-                                            }
+                                            } */}
                                             
+                                            <Tab className='fs-14 h6' onClick={showOngoingProjects}>Ongoing Project</Tab>
+                                            <Tab className='fs-14 h6' onClick={showUpcomingProjects}>Upcoming Project</Tab>
                                             
                                         </TabList>
-                                        <div className="seclect-box" data-aos="fade-in" data-aos-duration="800">
+                                        {/* <div className="seclect-box" data-aos="fade-in" data-aos-duration="800">
                                             <div className="dropdown selector-drop" id="category">
                                             
                                                         <Link to="#" className="btn-selector btn-link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,7 +87,7 @@ function Project1(props) {
                                                     <li className="dropdown-item" data-toggle="modal" data-target="#edit_client">Sort by View</li>
                                                 </ul>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     
                                     
@@ -80,7 +97,7 @@ function Project1(props) {
                                                     <TabPanel key={idx.id} className='content-tab mt40'>
                                                         <div className="content-inner project-box-style6_wrapper">
                                                             {
-                                                                data.slice(17,27).map(item => (
+                                                                data.slice(startIndex,endIndex).map(item => (
                                                                     <div key={item.id} className="project-box-style6">
                                                                         <span className="boder"></span>
                                                                         <div className="img-box">
@@ -89,12 +106,12 @@ function Project1(props) {
                                                                             </div>
                                                                             <div className="content">
                                                                                 <div className="img-box">
-                                                                                    <div className="image_inner">
+                                                                                    {/* <div className="image_inner">
                                                                                         <img className="mask" src={item.avt} alt="" />
                                                                                         <div className="shape">
                                                                                             <img src={require ("../assets/images/common/shape2.png")} alt="" />
                                                                                         </div>
-                                                                                    </div>
+                                                                                    </div> */}
                                                                                     <div className="content-inner">
                                                                                             <h5 className="heading"><Link to="/project_details">{item.title}</Link></h5>
                                                                                             <p className="desc">{item.desc}</p>
@@ -209,7 +226,7 @@ function Project1(props) {
                             </div>
                         
                         </div>
-                        <div className="col-md-12">
+                        {/* <div className="col-md-12">
                             <ul className="panigation mt6"  data-aos="fade-up" data-aos-duration="800">
                                 <li>
                                     <Link to="#">
@@ -241,12 +258,12 @@ function Project1(props) {
                                     </Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
 
-            {<CTA />}
+            {/* {<CTA />} */}
             
         </div>
     );
