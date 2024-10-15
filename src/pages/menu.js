@@ -139,6 +139,11 @@ const menus = [
                 id: 3,
                 sub: 'News',
                 links: '/blog_details'
+            },
+            {
+                id:4,
+                sub: 'Blog',
+                links:'/team_details'
             }
         ],
     },
